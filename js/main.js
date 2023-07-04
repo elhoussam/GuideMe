@@ -1,56 +1,9 @@
 'use strict';
 
-console.log(ligne);
-
-class workout {
-  #id = 'should use special API to generate that ID';
-
-  #date = new Date();
-
-  constructor(name, distance, duration, coords, type) {
-    this.name = name;
-    this.distance = distance;
-    this.duration = duration;
-    this.coords = coords;
-    this.type = type;
-  }
-}
-
-class Running extends workout {
-  #cadence;
-  constructor(name, distance, duration, coords, cadence) {
-    super(name, distance, duration, coords, 'running');
-    this.#cadence = cadence;
-    this.calcPace();
-  }
-  calcPace() {
-    // min/km
-    this.pace = this.duration / this.distance;
-    return this.pace;
-  }
-}
-
-class Cycling extends workout {
-  #cadence;
-  constructor(name, distance, duration, coords, elevationGain) {
-    super(name, distance, duration, coords, 'cycling');
-
-    this.elevationGain = elevationGain;
-    this.calcSpeed();
-  }
-  calcSpeed() {
-    // km/h
-    this.speed = this.distance / (this.duration / 60);
-    return this.speed;
-  }
-}
-
 /* the main class */
 class App {
   #map;
   mapo;
-  #mapEvent;
-  testPoliline;
   #wilayas = [];
   #workouts;
   currentSelectedWilaya;
@@ -58,12 +11,15 @@ class App {
   constructor() {
     this._getPosition();
     wilaya.renderWilayaInput();
-    form.addEventListener('submit', this._newWorkout.bind(this));
-    // inputType.addEventListener('change', this._toggleElevationField);
     inputWilaya.addEventListener('change', this._selectWilaya.bind(this));
     inputLineTransport.addEventListener(
       'change',
       this._renderSelectedLigneOfTransport.bind(this)
+    );
+
+    containerStations.addEventListener(
+      'click',
+      this._focusOnBusStation.bind(this)
     );
   }
   _getPosition() {
@@ -77,7 +33,7 @@ class App {
       maxZoom: 18,
       minZoom: 6,
       zoomControl: false,
-    }).setView([latitude, longitude], 17);
+    }).setView([latitude, longitude], 13);
     this.mapo = this.#map;
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution:
@@ -116,7 +72,6 @@ class App {
 
     let marker = L.marker(station.coords, { icon: myIcon }) //, { icon: myIcon }
       .addTo(this.#map)
-
       .bindPopup(
         L.popup({
           // maxWidth: 250,
@@ -133,6 +88,9 @@ class App {
     marker.on('mouseover', function (ev) {
       marker.openPopup();
     });
+
+    // render bus station on the left side bar
+    this._renderBusStationSideBar(station);
   }
   _renderStationsPath(wilayaCode, lineCode) {
     let lineCoords = [];
@@ -158,17 +116,6 @@ class App {
     this.#map.flyToBounds(clonedPolyline.getBounds(), { duration: 1 });
   }
   _clearMap() {
-    // let i;
-    // for (i in this.#map._layers) {
-    //   if (this.#map._layers[i]._path != undefined) {
-    //     try {
-    //       this.#map.removeLayer(this.#map._layers[i]);
-    //     } catch (e) {
-    //       console.log('problem with ' + e + this.#map._layers[i]);
-    //     }
-    //   }
-    // }
-
     this.#map.eachLayer(layer => {
       if (layer instanceof L.Marker) {
         this.#map.removeLayer(layer);
@@ -176,6 +123,7 @@ class App {
         this.#map.removeLayer(layer);
       }
     });
+    containerStations.innerHTML = '';
   }
   _renderSelectedLigneOfTransport() {
     console.log(inputLineTransport.value);
@@ -187,84 +135,6 @@ class App {
     // draw line between markers
     this._renderStationsPath(+inputWilaya.value, +inputLineTransport.value);
   }
-  _showForm(mapE) {
-    console.log(this);
-    this.#mapEvent = mapE;
-
-    inputDistance.value =
-      inputDuration.value =
-      inputCadence.value =
-      inputElevation.value =
-        '';
-
-    // unhide form
-    form.classList.remove('hidden');
-
-    // focus on first field
-    inputDistance.focus();
-    // check input
-  }
-
-  _toggleElevationField() {
-    inputCadence.closest('.form__row').classList.toggle('form__row--hidden');
-    inputElevation.closest('.form__row').classList.toggle('form__row--hidden');
-  }
-
-  _newWorkout(ev) {
-    ev.preventDefault();
-
-    // validate field form HELPING FUNCTION
-
-    const fieldNotNumber = (...fileds) =>
-      fileds.every(field => Number.isFinite(field));
-
-    const NumberArePositive = (...fileds) => fileds.every(field => field > 0);
-
-    // Get data from form
-    const type = inputType.value;
-    const distance = inputDistance.value;
-    const duration = +inputDuration.value;
-
-    let workout;
-
-    const { lat, lng } = this.#mapEvent.latlng;
-    if (type === 'running') {
-      const cadence = +inputCadence.value;
-
-      // if (!fieldNotNumber(distance, duration, cadence)) {
-      //   alert('Values not number');
-      //   return;
-      // } else if (!NumberArePositive(distance, duration, cadence)) {
-      //   alert('NOT positive value');
-      //   return;
-      // }
-      workout = new Running('running', distance, duration, [lat, lng], cadence);
-    }
-    if (type === 'cycling') {
-      const elevation = +inputElevation.value;
-      if (!fieldNotNumber(distance, duration, elevation)) {
-        alert('Values not number');
-        return;
-      } else if (!NumberArePositive(distance, duration, elevation)) {
-        alert('NOT positive value');
-        return;
-      }
-
-      workout = new Cycling(
-        'cycling',
-        distance,
-        duration,
-        [lat, lng],
-        elevation
-      );
-    }
-
-    myworkout = workout;
-    this.#workouts.push(workout);
-    console.log(this.#workouts);
-    //add marker
-    this._renderWorkoutMarker(workout);
-  }
   _selectWilaya(ev) {
     this._clearMap();
 
@@ -275,29 +145,48 @@ class App {
       'unkown'
     );
     console.log(this.currentSelectedWilaya);
-    this._renderLigneTransportOfSelectedWilaya();
+    wilaya.renderLigneTransportOfSelectedWilaya(this.currentSelectedWilaya.Num);
   }
-  _renderLigneTransportOfSelectedWilaya() {
-    let currentWilayaCode = this.currentSelectedWilaya.Num;
-    let LigneTransportUniqueValue = Array.from(
-      new Set(
-        ligne.map(function (line) {
-          if (line.WilayaCode === currentWilayaCode) return line.LigneCode;
-        })
-      )
-    );
-    console.log(LigneTransportUniqueValue);
+  _renderBusStationSideBar(busStation) {
+    // literal
+    let htmlElement = `<div class="station" data-uniqueid='${
+      busStation.UniqueID
+    }'>
+    <img src="img/station.png" alt="" />
+    <span> ${busStation.Libelle} </span>
+    <img class="pathinto ${
+      busStation.type === 'end' ? 'hidden' : ''
+    }" src="img/BetweenStation.png" alt="" />
+  </div>`;
+    containerStations.insertAdjacentHTML('beforeend', htmlElement);
+  }
+  _focusOnBusStation(ev) {
+    // get the coloses parent has unique id
+    let closestParent = ev.target.closest('.station');
 
-    inputLineTransport.innerHTML =
-      '<option  value="0" Selected >خط نقل رقم</option> ';
+    // get the unique ID
+    let uniqueID = closestParent.dataset.uniqueid;
 
-    if (LigneTransportUniqueValue?.[0] !== undefined)
-      LigneTransportUniqueValue.forEach(item =>
-        inputLineTransport.insertAdjacentHTML(
-          'beforeend',
-          `<option  value="${item}" > خط رقم ${item}</option> `
-        )
-      );
+    // FIND THE ID in the DB
+    let selectedBusStation = ligne.find(x => x.UniqueID === uniqueID);
+
+    // focus on this point
+
+    this.#map.flyTo(selectedBusStation.coords, 17, {
+      duration: 2,
+    });
+
+    // popup the name of the bus station
+
+    this.#map.eachLayer(layer => {
+      if (
+        layer instanceof L.Marker &&
+        layer.getLatLng().lat === selectedBusStation.coords[0] &&
+        layer.getLatLng().lng === selectedBusStation.coords[1]
+      ) {
+        layer.openPopup();
+      }
+    });
   }
 }
 

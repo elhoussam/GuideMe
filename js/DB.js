@@ -6,772 +6,772 @@ let ligne = [
     duration: 0,
     coords: [34.85827863342541, 5.695375800132752],
     type: 'start',
+    UniqueID: '88eaa3dc6280ce9abc206cfb1ad80dba',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'حي 520 مسكن 3',
     duration: 0,
-
     coords: [34.85510922504874, 5.6932997703552255],
     type: 'station',
+    UniqueID: 'de19517b5a178237f033377c082fa5f3',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'حي 520 مسكن 2',
     duration: 0,
-
     coords: [34.85239312099432, 5.691470503807069],
     type: 'station',
+    UniqueID: 'b340d80541eb91af8908a56415436ad6',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'حي 520 مسكن 1',
     duration: 0,
-
     coords: [34.84884488240861, 5.689094066619874],
     type: 'station',
+    UniqueID: '756f895b9f15b9099e126fd2886c6c8c',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84792037824651, 5.688450336456299],
     type: 'station',
+    UniqueID: '4205d4e29d328d3c032213b5aa54f521',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.847761890775836, 5.688396692276002],
     type: 'station',
+    UniqueID: '6b11a3934b30e16fa0b652994ad899e0',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.847568183452715, 5.688493251800537],
     type: 'station',
+    UniqueID: 'aa51f003cc8c0d203d321e9f7b3b4800',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84740969530371, 5.688729286193848],
     type: 'station',
+    UniqueID: '7aa573784b1a14cda46a49441eeb9319',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'سوق الخميس',
     duration: 0,
-
     coords: [34.84739648794419, 5.689791440963746],
     type: 'station',
+    UniqueID: 'dd9ace5131a51d87108136336bf1ce46',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'عيادة متعددة الخدمات',
     duration: 0,
-
     coords: [34.8475417687824, 5.6922751665115365],
     type: 'station',
+    UniqueID: '0948b27315bff4a543e8bc6ecb082b20',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'حي 240 مسكن',
     duration: 0,
-
     coords: [34.84762541520927, 5.6950217485427865],
     type: 'station',
+    UniqueID: '8544e32030336203bccfc34968b11e48',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'حي 240 مسكن 1',
     duration: 0,
-
     coords: [34.84786314669509, 5.697285532951356],
     type: 'station',
+    UniqueID: '8fedd16790c40dd6d319607bc46d1045',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'معهد الموسيقى',
     duration: 0,
-
     coords: [34.84815370646732, 5.699887275695802],
     type: 'station',
+    UniqueID: '027a6fc73fd387d323f10c466ab6f88e',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'عمارات الدرنوني',
     duration: 0,
-
     coords: [34.84874411122033, 5.703266859054566],
     type: 'station',
+    UniqueID: 'a904e8d631daf7874c7f3195e2a0e917',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'خدمات التربية',
     duration: 0,
-
     coords: [34.84942243200093, 5.705364346504212],
     type: 'station',
+    UniqueID: 'e9e66ddab3bc6c8263d5d0c5aa077ca1',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84939603059444, 5.705696940422058],
     type: 'station',
+    UniqueID: 'ff1d4dec502ff1889c66f9d3b9be9b3c',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84930802584502, 5.705873966217041],
     type: 'station',
+    UniqueID: '6f412214eac75ee9a23d2b6159eb2364',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'عيادة طب العيون',
     duration: 0,
-
     coords: [34.849154017307036, 5.705991983413697],
     type: 'station',
+    UniqueID: '739404ab27d4fa191662b57578f74108',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84894280301765, 5.70616900920868],
     type: 'station',
+    UniqueID: '07e3327b93454546a9ae79e3a96ab338',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.848872398837884, 5.7064855098724365],
     type: 'station',
+    UniqueID: 'b92de9ae95e0d628375f83e84b3d4385',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.8495720376995, 5.70666790008545],
     type: 'station',
+    UniqueID: '02624f0e1acc9f3add9f3a743c55e99a',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'حي 726 مسكن',
     duration: 0,
-
     coords: [34.84947523267702, 5.70717215538025],
     type: 'station',
+    UniqueID: 'a769b062c5fbb5012b303d908a4e8f02',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84915841544354, 5.708969235420227],
     type: 'station',
+    UniqueID: '964a1f9287e38f745e9456827f4c9f1d',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84856878012251, 5.709001421928407],
     type: 'station',
+    UniqueID: '0e1eb1fe22f9564d205ea17b322152ad',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.8480979488846, 5.709108710289002],
     type: 'station',
+    UniqueID: '85bc57bf7b318cd3accaa26ff9e245ea',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84753030764225, 5.7091623544693],
     type: 'station',
+    UniqueID: 'df02e288a0d765fc8dd82fc566e91bf5',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84721348292066, 5.70917308330536],
     type: 'station',
+    UniqueID: '3804a8d72849e9374eb5fcc743a45bb4',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.847055070102456, 5.709511041641236],
     type: 'station',
+    UniqueID: 'a0e87a154804919d5a4cb46dcb08a6c8',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.846870254762464, 5.710321068763733],
     type: 'station',
+    UniqueID: '8a4306ea5efb289e62eb2de5755cd6cf',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84659303097423, 5.711055994033814],
     type: 'station',
+    UniqueID: 'ee5ed6d8ef1923277db392898b504764',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'ثانوية الحكيم سعدان',
     duration: 0,
-
     coords: [34.84648302127565, 5.711447596549989],
     type: 'station',
+    UniqueID: '1debcc75b486b9ee182cae02c6980b85',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84575695357676, 5.7143980264663705],
     type: 'station',
+    UniqueID: '7c32a32171a80a196944f368bfbb951c',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84532130988266, 5.714982748031617],
     type: 'station',
+    UniqueID: 'bf741ed736124eb83eb62e87e8967589',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.844995675716326, 5.715229511260986],
     type: 'station',
+    UniqueID: 'c55a112f14f6ebaad22f6a7f2b580135',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84474044803663, 5.71564793586731],
     type: 'station',
+    UniqueID: '75834b9a7fb347c70c1ee443aebe8b6a',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84482845767078, 5.716173648834229],
     type: 'station',
+    UniqueID: 'b5b5cec0265bd43220723223068ec90a',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84554573267974, 5.716736912727356],
     type: 'station',
+    UniqueID: '0e618cdd19061293adf9661bd39822e3',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'بريد البخاري',
     duration: 0,
-
     coords: [34.84625420063154, 5.717386007308961],
     type: 'station',
+    UniqueID: 'e47a5fa805917af3c51550d16b2e7bdb',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'مسجد النصر',
     duration: 0,
-
     coords: [34.84757431097934, 5.718415975570679],
     type: 'station',
+    UniqueID: '6374ea6bfba44cced0e3239eea8bcd7e',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84996405380291, 5.72037935256958],
     type: 'station',
+    UniqueID: '22c2cb310c798cdfbe8aeef1a62ecd81',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'الامن الحضري الثاني',
     duration: 0,
-
     coords: [34.85025868541088, 5.720631480216981],
     type: 'station',
+    UniqueID: 'ff5d697be2544a89265a42564e87f997',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85098911354078, 5.721194744110108],
     type: 'station',
+    UniqueID: 'bfdb29a715856042fede04916c128dbf',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85148192885674, 5.721951127052307],
     type: 'station',
+    UniqueID: '442a0e3bd90e3b6d9a9580d4c95e9d32',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'كوري جاك',
     duration: 0,
-
     coords: [34.85170633485294, 5.722353458404542],
     type: 'station',
+    UniqueID: '4a74a6771b16cb3b482e066bc213b6d3',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.8523619488651, 5.7232868671417245],
     type: 'station',
+    UniqueID: '3d9b9abf34f2442141879d072b4c7aeb',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85344789493861, 5.724842548370362],
     type: 'station',
+    UniqueID: '61efdd3447182ecca883a2a36df9ccdc',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.8544609042708, 5.724204182624818],
     type: 'station',
+    UniqueID: 'b7fb8d9a7f9a16db3c9d3bc59877c3e2',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.854795300874876, 5.724016427993775],
     type: 'station',
+    UniqueID: '42fb26a212f7c207e422a66629ce9eb3',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.855415690974496, 5.724075436592103],
     type: 'station',
+    UniqueID: '4ace9879ce60133e101fd0450e493e46',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85613727357384, 5.72514295578003],
     type: 'station',
+    UniqueID: '5fb53bcec2d9b044b3f508527d7aa390',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'الدائرة لقديمة',
     duration: 0,
-
     coords: [34.85574791541913, 5.725545287132263],
     type: 'station',
+    UniqueID: '00064c45ac9a084d0f88b194594d7d3e',
   },
-
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85476640774786, 5.726596713066101],
     type: 'station',
+    UniqueID: '23492085833d170b9d4be29efeeaa8ef',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'نزل قندوز',
     duration: 0,
-
     coords: [34.85298880958462, 5.728415250778199],
     type: 'station',
+    UniqueID: '4d43b12dca5c7953f5c7b7eb1e51bff8',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85268520605834, 5.728715658187867],
     type: 'station',
+    UniqueID: 'a2d6e98afe50505d9eca996efa33cf58',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85241240193422, 5.729048252105714],
     type: 'station',
+    UniqueID: '34ba1c4d4455c8af587adfa6507c0142',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85232880048932, 5.72939693927765],
     type: 'station',
+    UniqueID: 'e4660ebe06e31a8a26a6c19c67d7c7fc',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85223639879347, 5.731671452522279],
     type: 'station',
+    UniqueID: '810e954c3802c9d50d4a8e81901ee1c7',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.852139596905594, 5.733329057693482],
     type: 'station',
+    UniqueID: '715d3d0b7b844f15d60d9e67dfecb27e',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85208239573648, 5.734444856643677],
     type: 'station',
+    UniqueID: '7ba67fd689257f249aa600fc955d27f6',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'المحكمة',
     duration: 0,
-
     coords: [34.85205599518348, 5.734611153602601],
     type: 'station',
+    UniqueID: '3c1e279abe414760f9097c6eb3a8c7bf',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85187431168553, 5.738891959190369],
     type: 'station',
+    UniqueID: 'df09d6b4a159f3d62f734d0cfdb99c67',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85181711033197, 5.74012577533722],
     type: 'station',
+    UniqueID: 'd30e28a417f06490511cce4b4b2749aa',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85182591054279, 5.741295218467712],
     type: 'station',
+    UniqueID: 'c03b6a0be951aa2617c432bf3cf6d1c7',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85175550882983, 5.741472244262696],
     type: 'station',
+    UniqueID: 'f8835e1fbbcbe31d52db21574990d9d2',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85186111137669, 5.741686820983887],
     type: 'station',
+    UniqueID: '98bdc0ea5e749d5f65b30a7d12d7b814',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'المستشفى',
     duration: 0,
-
     coords: [34.85188311189022, 5.742577314376832],
     type: 'station',
+    UniqueID: '8577f156a22ce7fe65989772ad8a69ed',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85194031319788, 5.7428777217865],
     type: 'station',
+    UniqueID: '64ce4a01823a909ee3e06714bfe9a202',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'حديقة بشير من ناصر',
     duration: 0,
-
     coords: [34.85194911339552, 5.7436341047287],
     type: 'station',
+    UniqueID: 'f1836d901c9c196b526ec6adea53fec5',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'الحي الجامعي',
     duration: 0,
-
     coords: [34.851919953316816, 5.747057851212621],
     type: 'station',
+    UniqueID: '84603556a5cdf94e4ff4ee4c060eb96c',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85200240760701, 5.751120773979724],
     type: 'station',
+    UniqueID: '22f1266217f3c4d36595fbb50c87e0df',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85196280673583, 5.751270977684558],
     type: 'station',
+    UniqueID: '4dda5b1eceac8ef2866757100eb02a27',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.852072809108705, 5.751351443955005],
     type: 'station',
+    UniqueID: '589b7a9011e38aabd042febabf88364b',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'صبدلية حي 400 مسكن',
     duration: 0,
-
     coords: [34.852812021239586, 5.751324621864856],
     type: 'station',
+    UniqueID: '96503b400edfe279b33899de4eb32d6b',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'حي 400 مسكن 2',
     duration: 0,
-
     coords: [34.85558085653691, 5.751220639603734],
     type: 'station',
+    UniqueID: '47e49eaa1739e77b3b17e7fee34f8555',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'CNAS العالية',
     duration: 0,
-
     coords: [34.856786395067395, 5.749849406906665],
     type: 'station',
+    UniqueID: '4a94376ec04b05362d00814051a256fc',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85765775822207, 5.748778581619263],
     type: 'station',
+    UniqueID: 'cd853c7ccd779ca639b6a8dc0ced7a46',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'الحي العسكري',
     duration: 0,
-
     coords: [34.85793493417557, 5.749078989028931],
     type: 'station',
+    UniqueID: 'b8e4f297addeb00463ccf410024c2756',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'متوسطة خباش عيد الحميد',
     duration: 0,
-
     coords: [34.8595408376356, 5.751074552536012],
     type: 'station',
+    UniqueID: 'c6d559de2320a31419eb09f5c6cb7cc5',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'مقبرة العالية',
     duration: 0,
-
     coords: [34.86152067545964, 5.7533597946167],
     type: 'station',
+    UniqueID: 'c1e3d7897184c65ef95dd60b1b3dde38',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.860630024563235, 5.754421949386597],
     type: 'station',
+    UniqueID: '4037f85c67aa2338106779bb0980feb9',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85999647478415, 5.755237340927125],
     type: 'station',
+    UniqueID: 'abab876a5531064718e42e9515b21326',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85954770740476, 5.755741596221925],
     type: 'station',
+    UniqueID: 'cadc52d594fe5408a27837eb908fd62e',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'مسجد معاذ ين جبل',
     duration: 0,
-
     coords: [34.85893174819169, 5.75587034225464],
     type: 'station',
+    UniqueID: 'b7839985dc5c8c0933105deae112f94f',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.857030829626524, 5.75587034225464],
     type: 'station',
+    UniqueID: '732ce9bcdb4b96b9cc4334ec0db0e525',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'مقهى الزيتونة',
     duration: 0,
-
     coords: [34.854848486581815, 5.755913257598878],
     type: 'station',
+    UniqueID: '65b71906de085f15bf1fe92c96e0a07d',
   },
   {
     WilayaCode: 7,
     LigneCode: 1,
     Libelle: 'اخر محطة',
     duration: 0,
-
     coords: [34.85227007927007, 5.755956172943116],
     type: 'end',
+    UniqueID: '8db37cfdaccbd8f51d8028eb14114848',
   },
   {
     WilayaCode: 7,
@@ -781,6 +781,7 @@ let ligne = [
     Libelle: 'محطة المسافرين القديمة',
     duration: 0,
     type: 'start',
+    UniqueID: '5590895ea36ad7497e71552f0be1c87e',
   },
   {
     WilayaCode: 7,
@@ -790,575 +791,575 @@ let ligne = [
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'babfcdf4edfd8554c109e1d61afea502',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.857041698295866, 5.715244161853846],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'af9772fceae6c9dceba7b6e77e70dae3',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.85698887502926, 5.714107394297679],
     Libelle: 'نزل روايال',
     duration: 0,
     type: 'station',
+    UniqueID: 'fb7f0ee534208fc21b9c8b253989f3cb',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.856707150367846, 5.713013523630393],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '58ad61dcc1d6237fc693f85bb8abd882',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.85645183656006, 5.712101964741022],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '58c37d52aa0af702763d6dcef73b3c3e',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.8564694444343, 5.711029542518237],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'e7b8461a39dbb987e32b847ccafecc6a',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.85635499318428, 5.709828429628688],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '165627ada5b335b703a1b185b7256b4e',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.85592359857999, 5.7085415229613385],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'bfd11d2769f67450a252e8dea86feb47',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.85563306624518, 5.7079409665165635],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'bad7619701526cee832a4b55bc745f25',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.85546578958697, 5.7078677202633],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'b1a431e27456362711021ce4b3fbbc4e',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.85527650243196, 5.7078677202633],
     Libelle: 'حمام الصالحين',
     duration: 0,
     type: 'station',
+    UniqueID: '5ac2435947cd56507d719e9c270a8a88',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.85136300297409, 5.706761283616118],
     Libelle: 'سوق الرحمه',
     duration: 0,
     type: 'station',
+    UniqueID: '274ec3b1538af102cf84c3fe3e61de3e',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.8503152628694, 5.706525350727133],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '1ccd4e2f15bf55a026716e52575e0982',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.85004231997941, 5.706010588060161],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '600661ffbd9370a9111ed949fcff535c',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.849514040846195, 5.705924794282358],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '30fe166872a9938af2204cd9c7c61946',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.84909141509767, 5.706064209171313],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'f844bf69b4bcd61bce2ad3d577cea5a0',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.84891532039514, 5.706267969393647],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'a1095e1e1bb614573ade4f62df5c4b8f',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.848871296660626, 5.706478617437295],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '4bfd13f5b245cd3f664de8a9624e0100',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.84958007592331, 5.706666291326284],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '39519b1782052d76d280e1cd6610dd07',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'حي 726 مسكن',
     duration: 0,
-
     coords: [34.84947523267702, 5.70717215538025],
     type: 'station',
+    UniqueID: 'a769b062c5fbb5012b303d908a4e8f02',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84915841544354, 5.708969235420227],
     type: 'station',
+    UniqueID: '964a1f9287e38f745e9456827f4c9f1d',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84856878012251, 5.709001421928407],
     type: 'station',
+    UniqueID: '0e1eb1fe22f9564d205ea17b322152ad',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.8480979488846, 5.709108710289002],
     type: 'station',
+    UniqueID: '85bc57bf7b318cd3accaa26ff9e245ea',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84753030764225, 5.7091623544693],
     type: 'station',
+    UniqueID: 'df02e288a0d765fc8dd82fc566e91bf5',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84721348292066, 5.70917308330536],
     type: 'station',
+    UniqueID: '3804a8d72849e9374eb5fcc743a45bb4',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.847055070102456, 5.709511041641236],
     type: 'station',
+    UniqueID: 'a0e87a154804919d5a4cb46dcb08a6c8',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.846870254762464, 5.710321068763733],
     type: 'station',
+    UniqueID: '8a4306ea5efb289e62eb2de5755cd6cf',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84659303097423, 5.711055994033814],
     type: 'station',
+    UniqueID: 'ee5ed6d8ef1923277db392898b504764',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'ثانوية الحكيم سعدان',
     duration: 0,
-
     coords: [34.84648302127565, 5.711447596549989],
     type: 'station',
+    UniqueID: '1debcc75b486b9ee182cae02c6980b85',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84575695357676, 5.7143980264663705],
     type: 'station',
+    UniqueID: '7c32a32171a80a196944f368bfbb951c',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84532130988266, 5.714982748031617],
     type: 'station',
+    UniqueID: 'bf741ed736124eb83eb62e87e8967589',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.844995675716326, 5.715229511260986],
     type: 'station',
+    UniqueID: 'c55a112f14f6ebaad22f6a7f2b580135',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84474044803663, 5.71564793586731],
     type: 'station',
+    UniqueID: '75834b9a7fb347c70c1ee443aebe8b6a',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84482845767078, 5.716173648834229],
     type: 'station',
+    UniqueID: 'b5b5cec0265bd43220723223068ec90a',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84554573267974, 5.716736912727356],
     type: 'station',
+    UniqueID: '0e618cdd19061293adf9661bd39822e3',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'بريد البخاري',
     duration: 0,
-
     coords: [34.84625420063154, 5.717386007308961],
     type: 'station',
+    UniqueID: 'e47a5fa805917af3c51550d16b2e7bdb',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'مسجد النصر',
     duration: 0,
-
     coords: [34.84757431097934, 5.718415975570679],
     type: 'station',
+    UniqueID: '6374ea6bfba44cced0e3239eea8bcd7e',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84996405380291, 5.72037935256958],
     type: 'station',
+    UniqueID: '22c2cb310c798cdfbe8aeef1a62ecd81',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'الامن الحضري الثاني',
     duration: 0,
-
     coords: [34.85025868541088, 5.720631480216981],
     type: 'station',
+    UniqueID: 'ff5d697be2544a89265a42564e87f997',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85098911354078, 5.721194744110108],
     type: 'station',
+    UniqueID: 'bfdb29a715856042fede04916c128dbf',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85148192885674, 5.721951127052307],
     type: 'station',
+    UniqueID: '442a0e3bd90e3b6d9a9580d4c95e9d32',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'كوري جاك',
     duration: 0,
-
     coords: [34.85170633485294, 5.722353458404542],
     type: 'station',
+    UniqueID: '4a74a6771b16cb3b482e066bc213b6d3',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.8523619488651, 5.7232868671417245],
     type: 'station',
+    UniqueID: '3d9b9abf34f2442141879d072b4c7aeb',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85344789493861, 5.724842548370362],
     type: 'station',
+    UniqueID: '61efdd3447182ecca883a2a36df9ccdc',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.8544609042708, 5.724204182624818],
     type: 'station',
+    UniqueID: 'b7fb8d9a7f9a16db3c9d3bc59877c3e2',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.854795300874876, 5.724016427993775],
     type: 'station',
+    UniqueID: '42fb26a212f7c207e422a66629ce9eb3',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.855415690974496, 5.724075436592103],
     type: 'station',
+    UniqueID: '4ace9879ce60133e101fd0450e493e46',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85613727357384, 5.72514295578003],
     type: 'station',
+    UniqueID: '5fb53bcec2d9b044b3f508527d7aa390',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'الدائرة لقديمة',
     duration: 0,
-
     coords: [34.85574791541913, 5.725545287132263],
     type: 'station',
+    UniqueID: '00064c45ac9a084d0f88b194594d7d3e',
   },
-
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85476640774786, 5.726596713066101],
     type: 'station',
+    UniqueID: '23492085833d170b9d4be29efeeaa8ef',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     Libelle: 'نزل قندوز',
     duration: 0,
-
     coords: [34.85298880958462, 5.728415250778199],
     type: 'station',
+    UniqueID: '4d43b12dca5c7953f5c7b7eb1e51bff8',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.85253399083226, 5.728860315228332],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'ade0bb9e77f147a9810a5a27ba71a743',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.85235350130894, 5.729187404006275],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '89e3481f176ac0b2e2a78779cf6877c4',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.852300675032104, 5.729980996451155],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '871bcae880c57bf37a64dd4d8b772952',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.852261055302215, 5.730962262785022],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'f10d7f1827431ef9aa980051cf05adbe',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.84752415899751, 5.730762798878711],
     Libelle: 'HLM حي',
     duration: 0,
     type: 'station',
+    UniqueID: 'b6b72aa1ecadbc5cdee1e2eed4c16fe5',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.8436851359343, 5.730430347989653],
     Libelle: 'حي المصلى',
     duration: 0,
     type: 'station',
+    UniqueID: '5961520df409c4913dc2c947c3c8f8d0',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.84025099568009, 5.730205116253711],
     Libelle: 'مستشفى الحكيم سعدان',
     duration: 0,
     type: 'station',
+    UniqueID: 'd7ceaa74071ea6000626e70a6066b1c3',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.83627954202317, 5.729861941142423],
     Libelle: 'مقبرة العزيلات',
     duration: 0,
     type: 'station',
+    UniqueID: '699bb9866e3a0a22aa1c83be129eafd7',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.83552661734209, 5.7297824276281695],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '34eef25006629e30a7dd613d04f39e97',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.834183664413594, 5.727438437630631],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'a44135daa2d32ba38901836f111b424d',
   },
   {
     WilayaCode: 7,
@@ -1368,176 +1369,177 @@ let ligne = [
     Libelle: 'باب الضرب',
     duration: 0,
     type: 'station',
+    UniqueID: '9312e0d682522c3f0dd4400a93e61c4d',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.832039297439586, 5.723759563409454],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '169f6f02237086369cce9bdbb83d8d78',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.831990861400946, 5.723464647298161],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '554d5ca1235c773459ca936b9fc576a7',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.831836746543004, 5.723464647298161],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '2a1a07c9e3e9bcf579c9f8944d22176a',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.831656211628285, 5.723727390742762],
     Libelle: 'برج ترك',
     duration: 0,
     type: 'station',
+    UniqueID: '45246411a5015d46a44ecef539bcfd77',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.83046731327912, 5.724446554954625],
     Libelle: 'مكتبة الخندق',
     duration: 0,
     type: 'station',
+    UniqueID: '5161474d0173e373a5ad31a30794c7f7',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.82856504021587, 5.724661039399189],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '0d3e6bf2da699e03ae071f3cdcb3e8fb',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.82838890159833, 5.724864799621525],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '3c6ba536579cbad7aab08c0d483219cb',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.828318446045834, 5.7251329051772],
     Libelle: 'لبشاش 5',
     duration: 0,
     type: 'station',
+    UniqueID: '73bae605479740c0743f336a580f2fd7',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.82786929048163, 5.726012291399921],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'fa0de333b699e1684f08dcb7eff660b8',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.8273760972364, 5.726366190733439],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'd41542572da79616cad5c7bba267dcba',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.82725279846359, 5.726687917400268],
     Libelle: 'مسجد سيدي لحسن',
     duration: 0,
     type: 'station',
+    UniqueID: '976082865fd0b10ee7cea1cf3fe3fbde',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.82711188535434, 5.727127610511627],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'a806570fb46a137921982c510ed0b322',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.82655703764293, 5.727749615400862],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'ab0218a9973c7c1fdd2c9d55054cb3d4',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.825755584349245, 5.728253653845564],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '56730fa5abeaa5d545a46e0b8cf766f5',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.8238796247191, 5.729143764290475],
     Libelle: 'التكوين المهني لبشاش',
     duration: 0,
     type: 'station',
+    UniqueID: '210be204617b5491fb437932f2802458',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.822769882006924, 5.729560947776153],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'a03dd69cc4a7801ad07ee47ab171df36',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.82162489369615, 5.730311643332109],
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: '357fe67688eb636f23ae4835bd775bf7',
   },
   {
     WilayaCode: 7,
@@ -1547,16 +1549,17 @@ let ligne = [
     Libelle: 'none',
     duration: 0,
     type: 'station',
+    UniqueID: 'c8bcc05596d3b85c2e07b15c079d554d',
   },
   {
     WilayaCode: 7,
     LigneCode: 2,
     StationN: 1,
-
     coords: [34.81889447272678, 5.731469859332736],
     Libelle: 'الاقامة الجامعة لبشاش',
     duration: 0,
     type: 'end',
+    UniqueID: '7817ab5c0a6a0da9aa00f71df4a45a8f',
   },
   {
     WilayaCode: 7,
@@ -1564,6 +1567,7 @@ let ligne = [
     coords: [34.8430511515947, 5.685156583786011],
     Libelle: 'عمارات العموري',
     type: 'start',
+    UniqueID: '5a9f729dbf3e00ff5d0ed61ec0797cd4',
   },
   {
     WilayaCode: 7,
@@ -1571,6 +1575,7 @@ let ligne = [
     coords: [34.84190644527941, 5.687772773677696],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '4e0d6335f981dded3425236f9b977b9d',
   },
   {
     WilayaCode: 7,
@@ -1578,6 +1583,7 @@ let ligne = [
     coords: [34.841589446869634, 5.688792761333753],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'e9bba2eb73af014976ed38adcfd89e32',
   },
   {
     WilayaCode: 7,
@@ -1585,6 +1591,7 @@ let ligne = [
     coords: [34.841703918658446, 5.689114862698813],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'f20ad05844f592b40f944a1fd5a91fab',
   },
   {
     WilayaCode: 7,
@@ -1592,6 +1599,7 @@ let ligne = [
     coords: [34.843579472216824, 5.692292929500776],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '8a1db48ad4e1fbb99da924a3f07be2e2',
   },
   {
     WilayaCode: 7,
@@ -1599,6 +1607,7 @@ let ligne = [
     coords: [34.844257478713104, 5.69335586400551],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '8717d20835bc769dd69605b7daeac328',
   },
   {
     WilayaCode: 7,
@@ -1606,6 +1615,7 @@ let ligne = [
     coords: [34.844556856427346, 5.69479458343614],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '7c959f7aa37302e11de39d0bf7e70add',
   },
   {
     WilayaCode: 7,
@@ -1613,6 +1623,7 @@ let ligne = [
     coords: [34.84441597293277, 5.69496637083085],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'b6c9708fa52e6ab6583695617e7d878b',
   },
   {
     WilayaCode: 7,
@@ -1620,6 +1631,7 @@ let ligne = [
     coords: [34.84445999905074, 5.695245525347232],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '0c4c65f9cdde7c9123489133c0f69f97',
   },
   {
     WilayaCode: 7,
@@ -1627,6 +1639,7 @@ let ligne = [
     coords: [34.84468453188598, 5.695318788128114],
     Libelle: 'حي 350 مسكن',
     type: 'station',
+    UniqueID: '1f93342f389e3a348d3adb4a221ec312',
   },
   {
     WilayaCode: 7,
@@ -1634,6 +1647,7 @@ let ligne = [
     coords: [34.844737363052324, 5.695646257849295],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'ad53dd1836c15e75aef31d7899fd74a4',
   },
   {
     WilayaCode: 7,
@@ -1641,6 +1655,7 @@ let ligne = [
     coords: [34.84493107703871, 5.696569615095798],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'cb874e8d2d3177189867fc6c80dda134',
   },
   {
     WilayaCode: 7,
@@ -1648,6 +1663,7 @@ let ligne = [
     coords: [34.84526567285036, 5.697031293719048],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '22d10e05028effafae73d88564cce786',
   },
   {
     WilayaCode: 7,
@@ -1655,6 +1671,7 @@ let ligne = [
     coords: [34.84578517417801, 5.697632549600532],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '63ef9fe83e2ad24165449e099d8c4dbe',
   },
   {
     WilayaCode: 7,
@@ -1662,6 +1679,7 @@ let ligne = [
     coords: [34.84630026971426, 5.698276752330651],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '5ad2fbd32234319f826f2f803daf4ff1',
   },
   {
     WilayaCode: 7,
@@ -1669,6 +1687,7 @@ let ligne = [
     coords: [34.84700026617272, 5.698861903143856],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '5847171127b541e0378e061bacf528d5',
   },
   {
     WilayaCode: 7,
@@ -1676,6 +1695,7 @@ let ligne = [
     coords: [34.847110327967265, 5.698969270265529],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'a895c5e3db2077304500d491704a0f42',
   },
   {
     WilayaCode: 7,
@@ -1683,6 +1703,7 @@ let ligne = [
     coords: [34.84582039448827, 5.699312845054948],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '6dcc434a08260ee87873511bd88c50e7',
   },
   {
     WilayaCode: 7,
@@ -1690,6 +1711,7 @@ let ligne = [
     coords: [34.84563989023871, 5.699388002040103],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'b89607f46b57b601e1f2377af578b5cd',
   },
   {
     WilayaCode: 7,
@@ -1697,6 +1719,7 @@ let ligne = [
     coords: [34.84566630551949, 5.699661788200447],
     Libelle: 'مكتب التشغيل لكورس',
     type: 'station',
+    UniqueID: 'd10accf11bb5eaddb78a1ead78ab5a0d',
   },
   {
     WilayaCode: 7,
@@ -1704,6 +1727,7 @@ let ligne = [
     coords: [34.84605813118852, 5.702549963773826],
     Libelle: 'مديرية التجارة بسكرة',
     type: 'station',
+    UniqueID: '7b9de0187b7d8b2df204d1f95451ba9e',
   },
   {
     WilayaCode: 7,
@@ -1711,6 +1735,7 @@ let ligne = [
     coords: [34.846216621940464, 5.704133628818768],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '1346af82a5b67f218b14d4a4b58c6521',
   },
   {
     WilayaCode: 7,
@@ -1718,6 +1743,7 @@ let ligne = [
     coords: [34.846326684783065, 5.705507927976363],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '9c9b14c51ff3c032ae1c7d6cfcb333d4',
   },
   {
     WilayaCode: 7,
@@ -1725,6 +1751,7 @@ let ligne = [
     coords: [34.8459744831686, 5.705491822908125],
     Libelle: 'عمارات لحمام 🕊',
     type: 'station',
+    UniqueID: '87216eacc7971076d9546972112742d6',
   },
   {
     WilayaCode: 7,
@@ -1732,6 +1759,7 @@ let ligne = [
     coords: [34.845494606042955, 5.705647505234555],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '66319eada40e1c9e8fac551ebdf27001',
   },
   {
     WilayaCode: 7,
@@ -1739,6 +1767,7 @@ let ligne = [
     coords: [34.84484302528323, 5.706034026872651],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'f06f133091fe31649e6e16b096379249',
   },
   {
     WilayaCode: 7,
@@ -1746,6 +1775,7 @@ let ligne = [
     coords: [34.84453484339721, 5.706280971252516],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'da9d495692ae75db51c533d2140082a7',
   },
   {
     WilayaCode: 7,
@@ -1753,6 +1783,7 @@ let ligne = [
     coords: [34.84434553109505, 5.706366864949871],
     Libelle: 'المعهد الوطني للتكوين',
     type: 'station',
+    UniqueID: 'aab936f2ca4a137f290fe5d5ad13bc8e',
   },
   {
     WilayaCode: 7,
@@ -1760,6 +1791,7 @@ let ligne = [
     coords: [34.843764383633385, 5.706780228368365],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'c27cf3644fe31d66bfbe582b443e4f22',
   },
   {
     WilayaCode: 7,
@@ -1767,6 +1799,7 @@ let ligne = [
     coords: [34.843332923015204, 5.707188223430781],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'ef96ad6c5d3ae24c8e48e90e13138c4a',
   },
   {
     WilayaCode: 7,
@@ -1774,6 +1807,7 @@ let ligne = [
     coords: [34.84258886826843, 5.708095475609044],
     Libelle: 'محطة الامل ',
     type: 'station',
+    UniqueID: 'b7017c9a7747a12a9c9c33bbcacac2fd',
   },
   {
     WilayaCode: 7,
@@ -1781,6 +1815,7 @@ let ligne = [
     coords: [34.84222344246832, 5.708605469437092],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '8fc7085f1456560aaf85d847eff83a63',
   },
   {
     WilayaCode: 7,
@@ -1788,6 +1823,7 @@ let ligne = [
     coords: [34.84121080828019, 5.709872401473013],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '7e2296cf6ca43f4771f670b859b5e397',
   },
   {
     WilayaCode: 7,
@@ -1795,6 +1831,7 @@ let ligne = [
     coords: [34.841021488332274, 5.710065662292042],
     Libelle: 'مسجد التوبه',
     type: 'station',
+    UniqueID: '9a982c07976adb92890af6a22bf8c813',
   },
   {
     WilayaCode: 7,
@@ -1802,13 +1839,15 @@ let ligne = [
     coords: [34.84076612585233, 5.7103931320131815],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'cae8766f2eaa80711b7c77e287ed1494',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     coords: [34.84081015392263, 5.710618602968728],
-    Libelle: '###',
+    Libelle: 'none',
     type: 'station',
+    UniqueID: '70c612ee6b71b8ec55597636f99b0124',
   },
   {
     WilayaCode: 7,
@@ -1816,6 +1855,7 @@ let ligne = [
     coords: [34.8418271957914, 5.711117837095167],
     Libelle: 'مديرية الصحة',
     type: 'station',
+    UniqueID: '1e59037a6b27030bf6d486afab9d2b72',
   },
   {
     WilayaCode: 7,
@@ -1823,6 +1863,7 @@ let ligne = [
     coords: [34.843605888158926, 5.712072126872366],
     Libelle: 'حي سايحي',
     type: 'station',
+    UniqueID: '6641324936c07c7df5dcbc6dd112d505',
   },
   {
     WilayaCode: 7,
@@ -1830,6 +1871,7 @@ let ligne = [
     coords: [34.8450059209568, 5.712834452090637],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'b6d93d1f42f1e9d5d0ad5c3f557f7c70',
   },
   {
     WilayaCode: 7,
@@ -1837,6 +1879,7 @@ let ligne = [
     coords: [34.84577196655776, 5.713296497668875],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '174d155887c0b9ccb5f7f939834e2474',
   },
   {
     WilayaCode: 7,
@@ -1844,6 +1887,7 @@ let ligne = [
     coords: [34.84591284773109, 5.713693765740394],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'ecff375a4c7c48a298d469fe242301f4',
   },
   {
     WilayaCode: 7,
@@ -1851,6 +1895,7 @@ let ligne = [
     coords: [34.84563989023871, 5.714584934657496],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'a5e71946b83eed1d1202dfc00ae19a91',
   },
   {
     WilayaCode: 7,
@@ -1858,6 +1903,7 @@ let ligne = [
     coords: [34.845199634311065, 5.715121783402753],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'af66ab1d0c9f851a0e963d17b8e5bdf3',
   },
   {
     WilayaCode: 7,
@@ -1865,6 +1911,7 @@ let ligne = [
     coords: [34.844759376028286, 5.715486840549505],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'c3d5dc362a2b147a50524108744e494d',
   },
   {
     WilayaCode: 7,
@@ -1872,6 +1919,7 @@ let ligne = [
     coords: [34.844732960456426, 5.716088111144179],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '0afd8ede3c2ae1d806aef56f757c92ce',
   },
   {
     WilayaCode: 7,
@@ -1879,6 +1927,7 @@ let ligne = [
     coords: [34.84508516738409, 5.716410220391333],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'c8a672bd42fd955eb97c4ec9b8b65631',
   },
   {
     WilayaCode: 7,
@@ -1886,250 +1935,250 @@ let ligne = [
     coords: [34.84606253371351, 5.717204756534292],
     Libelle: 'بريد البخاري',
     type: 'station',
+    UniqueID: '5da1d55c5d3a3c8887953af17cb6e81e',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'مسجد النصر',
     duration: 0,
-
     coords: [34.84757431097934, 5.718415975570679],
     type: 'station',
+    UniqueID: '6374ea6bfba44cced0e3239eea8bcd7e',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84996405380291, 5.72037935256958],
     type: 'station',
+    UniqueID: '22c2cb310c798cdfbe8aeef1a62ecd81',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'الامن الحضري الثاني',
     duration: 0,
-
     coords: [34.85025868541088, 5.720631480216981],
     type: 'station',
+    UniqueID: 'ff5d697be2544a89265a42564e87f997',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85098911354078, 5.721194744110108],
     type: 'station',
+    UniqueID: 'bfdb29a715856042fede04916c128dbf',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85148192885674, 5.721951127052307],
     type: 'station',
+    UniqueID: '442a0e3bd90e3b6d9a9580d4c95e9d32',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'كوري جاك',
     duration: 0,
-
     coords: [34.85170633485294, 5.722353458404542],
     type: 'station',
+    UniqueID: '4a74a6771b16cb3b482e066bc213b6d3',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.8523619488651, 5.7232868671417245],
     type: 'station',
+    UniqueID: '3d9b9abf34f2442141879d072b4c7aeb',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85344789493861, 5.724842548370362],
     type: 'station',
+    UniqueID: '61efdd3447182ecca883a2a36df9ccdc',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.8544609042708, 5.724204182624818],
     type: 'station',
+    UniqueID: 'b7fb8d9a7f9a16db3c9d3bc59877c3e2',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.854795300874876, 5.724016427993775],
     type: 'station',
+    UniqueID: '42fb26a212f7c207e422a66629ce9eb3',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.855415690974496, 5.724075436592103],
     type: 'station',
+    UniqueID: '4ace9879ce60133e101fd0450e493e46',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85613727357384, 5.72514295578003],
     type: 'station',
+    UniqueID: '5fb53bcec2d9b044b3f508527d7aa390',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'الدائرة لقديمة',
     duration: 0,
-
     coords: [34.85574791541913, 5.725545287132263],
     type: 'station',
+    UniqueID: '00064c45ac9a084d0f88b194594d7d3e',
   },
-
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85476640774786, 5.726596713066101],
     type: 'station',
+    UniqueID: '23492085833d170b9d4be29efeeaa8ef',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'نزل قندوز',
     duration: 0,
-
     coords: [34.85298880958462, 5.728415250778199],
     type: 'station',
+    UniqueID: '4d43b12dca5c7953f5c7b7eb1e51bff8',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85268520605834, 5.728715658187867],
     type: 'station',
+    UniqueID: 'a2d6e98afe50505d9eca996efa33cf58',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85241240193422, 5.729048252105714],
     type: 'station',
+    UniqueID: '34ba1c4d4455c8af587adfa6507c0142',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85232880048932, 5.72939693927765],
     type: 'station',
+    UniqueID: 'e4660ebe06e31a8a26a6c19c67d7c7fc',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85223639879347, 5.731671452522279],
     type: 'station',
+    UniqueID: '810e954c3802c9d50d4a8e81901ee1c7',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.852139596905594, 5.733329057693482],
     type: 'station',
+    UniqueID: '715d3d0b7b844f15d60d9e67dfecb27e',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85208239573648, 5.734444856643677],
     type: 'station',
+    UniqueID: '7ba67fd689257f249aa600fc955d27f6',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'المحكمة',
     duration: 0,
-
     coords: [34.85205599518348, 5.734611153602601],
     type: 'station',
+    UniqueID: '3c1e279abe414760f9097c6eb3a8c7bf',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85187431168553, 5.738891959190369],
     type: 'station',
+    UniqueID: 'df09d6b4a159f3d62f734d0cfdb99c67',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85181711033197, 5.74012577533722],
     type: 'station',
+    UniqueID: 'd30e28a417f06490511cce4b4b2749aa',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85182591054279, 5.741295218467712],
     type: 'station',
+    UniqueID: 'c03b6a0be951aa2617c432bf3cf6d1c7',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85175550882983, 5.741472244262696],
     type: 'station',
+    UniqueID: 'f8835e1fbbcbe31d52db21574990d9d2',
   },
   {
     WilayaCode: 7,
     LigneCode: 3,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85186111137669, 5.741686820983887],
     type: 'station',
+    UniqueID: '98bdc0ea5e749d5f65b30a7d12d7b814',
   },
   {
     WilayaCode: 7,
@@ -2137,6 +2186,7 @@ let ligne = [
     coords: [34.85193969456589, 5.742876190764671],
     Libelle: 'مستشفى عقبة بن نافع',
     type: 'station',
+    UniqueID: 'df72e8409f6f95665433d084c5e45ebb',
   },
   {
     WilayaCode: 7,
@@ -2144,6 +2194,7 @@ let ligne = [
     coords: [34.85263083870595, 5.7429030332019035],
     Libelle: 'عقبة بن نافع مستشفى',
     type: 'station',
+    UniqueID: '23fcfa1e287e3b3cc9bd82fa35ef6d71',
   },
   {
     WilayaCode: 7,
@@ -2151,6 +2202,7 @@ let ligne = [
     coords: [34.853229532121674, 5.742849348327397],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '656ef67efd664d9cc7cb1f648929a443',
   },
   {
     WilayaCode: 7,
@@ -2158,6 +2210,7 @@ let ligne = [
     coords: [34.85391626332215, 5.7426721882414755],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '708b6f4469e5647d4955f3938a9ad336',
   },
   {
     WilayaCode: 7,
@@ -2165,6 +2218,7 @@ let ligne = [
     coords: [34.85598082452501, 5.741969548064594],
     Libelle: 'نزل الشرطة',
     type: 'station',
+    UniqueID: '9ad53c11127c22ad01b07a46171ae77c',
   },
   {
     WilayaCode: 7,
@@ -2172,6 +2226,7 @@ let ligne = [
     coords: [34.8569976789094, 5.741672852887368],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '4593a369d11ef3d6ca48d234ca99b405',
   },
   {
     WilayaCode: 7,
@@ -2179,6 +2234,7 @@ let ligne = [
     coords: [34.85796609997078, 5.741672852887368],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '8e42ca68003cb334630258a467e5ccc3',
   },
   {
     WilayaCode: 7,
@@ -2186,6 +2242,7 @@ let ligne = [
     coords: [34.85798370752091, 5.742466998365746],
     Libelle: 'عثامنة الجموعي',
     type: 'station',
+    UniqueID: '03f7519c3921a7a6d32225876471db79',
   },
   {
     WilayaCode: 7,
@@ -2193,6 +2250,7 @@ let ligne = [
     coords: [34.85801892260988, 5.745323348749803],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'f765d4fcd29a98a84249624c9da8b03e',
   },
   {
     WilayaCode: 7,
@@ -2200,6 +2258,7 @@ let ligne = [
     coords: [34.858371072670344, 5.745302154374947],
     Libelle: 'المركز الثقافي',
     type: 'station',
+    UniqueID: 'd31bd919f12359f173d99627d500d314',
   },
   {
     WilayaCode: 7,
@@ -2207,6 +2266,7 @@ let ligne = [
     coords: [34.86106497075341, 5.745257532864581],
     Libelle: 'عبادة بن ايدير',
     type: 'station',
+    UniqueID: 'c7644a33e8f892c896f94385c60de465',
   },
   {
     WilayaCode: 7,
@@ -2214,6 +2274,7 @@ let ligne = [
     coords: [34.8617428331746, 5.745289735170563],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'e07f778cdd7fadacfa3bad64d3527a55',
   },
   {
     WilayaCode: 7,
@@ -2221,6 +2282,7 @@ let ligne = [
     coords: [34.86176043991632, 5.747597356463735],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'db8d86f05b65e673844a8c499cb10cf9',
   },
   {
     WilayaCode: 7,
@@ -2228,6 +2290,7 @@ let ligne = [
     coords: [34.861769243285735, 5.748842512296256],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'b37b6e72574acbf65d067f550d3aa4e2',
   },
   {
     WilayaCode: 7,
@@ -2235,184 +2298,183 @@ let ligne = [
     coords: [34.86166360279033, 5.750109136332792],
     Libelle: 'مسجد حّّديفة بن اليمان',
     type: 'end',
+    UniqueID: 'dcce59c74d3afbf87cc49c85bdec0971',
   },
-
-  /* ligne 5 Chetma */
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.848026036390735, 5.795674324035645],
-
     Libelle: 'شتمة وسط',
     type: 'start',
+    UniqueID: '2c6a06f833771b19183ec93ac6711c59',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.848008426709455, 5.790468440804789],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'acce53831774fc154f9459e931ac8b00',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.84874803007872, 5.7903969839976375],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '75310a8f504b068a82925b85f7cff41d',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.84937316583787, 5.7896249205491035],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '95bdcea058e885688a8c7ffb7ae47e83',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.849760571530425, 5.789517689514573],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '72d137b0bde9c28757b2123745c38ffe',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.84968132960534, 5.788564315988528],
-
     Libelle: 'مسجد التقوى',
     type: 'station',
+    UniqueID: '5d1f4d5a43d0974a4d5de8e8427b386b',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.84869520148707, 5.787792252539995],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '81397224bc109a1a349fab8156527439',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.84787635397972, 5.786462587711952],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '0ffb742bf69888429db2aa0f9d5dc59d',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.84818452335271, 5.783035485203771],
-
     Libelle: 'الاقامة الجامعية شتمة',
     type: 'station',
+    UniqueID: '4ffd30ec58a539009b961a29daaeb8cc',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.849241095298524, 5.7760396943242185],
-
     Libelle: 'القطل الجامعي بسكرة',
     type: 'station',
+    UniqueID: 'e09c78cf9a5127993411fba617fd185e',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.84973415756388, 5.770579623811178],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'd4d2007cf97855e966d3de087016c1b0',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85124854462019, 5.763501180171349],
-
     Libelle: 'منطقة الحظائر',
     type: 'station',
+    UniqueID: 'eb07bd75dbfd6b93a5dc633a6ed64bac',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85163594148319, 5.760112107155924],
-
     Libelle: 'نزل الموظفين',
     type: 'station',
+    UniqueID: '5c656e4f08b6f62314bee4f19f7c890b',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85202333652221, 5.757829458596713],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '7b8eb52b3ccd316e349f962cebda60ac',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85193529235533, 5.7548688808053905],
-
     Libelle: 'حي 300 مسكن',
     type: 'station',
+    UniqueID: 'b8ab7f610748c1eeb80e6080ffc458cc',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85197051003339, 5.751565047617962],
-
     Libelle: 'حي 400 مسكن',
     type: 'station',
+    UniqueID: '082c0ea17233f33577faeffd3f91e5d9',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85186485695398, 5.746523483987791],
-
     Libelle: 'الحي الجامعي',
     type: 'station',
+    UniqueID: '89e1a5a219bdb1041bc8fd2b4f7ee349',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85202333652221, 5.742168431149796],
-
     Libelle: 'مستشفى بشير بن ناصر',
     type: 'station',
+    UniqueID: '1b43b2156e218ea6c098398f3801b18c',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85201453210977, 5.741552236785861],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '25c917532b737ee794ac50ce31053d5a',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.851926487933454, 5.740972993304961],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'db50ab85bcda04909eaf3c73bd18a67c',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85182083479753, 5.740153929849023],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '78082a9d17f455ef4eab98bcc8160892',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85203214093372, 5.736528294727772],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '4b0c2af2a92fa491a3f9f3619e3b43cc',
   },
   {
     WilayaCode: 7,
@@ -2420,22 +2482,23 @@ let ligne = [
     coords: [34.852146598197585, 5.7344794890823145],
     Libelle: 'حارة الواد',
     type: 'station',
+    UniqueID: '372e0520cea43e37a907679705ec2f69',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.852186217982585, 5.732488389082557],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'd6e5154761d01864c5a550f887b9e7fc',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85227426188097, 5.730970556627956],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'ca3ea9bac229dd390dcc810a4c30ae86',
   },
   {
     WilayaCode: 7,
@@ -2444,22 +2507,23 @@ let ligne = [
     distance: 'موبيليس',
     Libelle: 'موبيليس',
     type: 'station',
+    UniqueID: '39854cb83b8c867ca6ee371d2056d32a',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85666313080235, 5.731051002901517],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'fe4ce1a072671fdf55222918a43772db',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85556703602602, 5.729506353619116],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '94c0ad38a2d1833f80fbec357d2594d7',
   },
   {
     WilayaCode: 7,
@@ -2468,31 +2532,31 @@ let ligne = [
     distance: 'جنان لبايلك',
     Libelle: 'جنان لبايلك',
     type: 'station',
+    UniqueID: 'abfe4a0e9d50197b260ab3c034181fea',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85827423155401, 5.726658117076538],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'b5cd9283eacbc7d79eea95f636885dc1',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85673356209584, 5.724566404506547],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '84f23e2cfd1ba85abc0f1c752d94b5f1',
   },
-
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85616570807523, 5.725129524211892],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'aa96cbdf0f94282b5edc089e2945ca44',
   },
   {
     WilayaCode: 7,
@@ -2500,6 +2564,7 @@ let ligne = [
     coords: [34.85540856328372, 5.724072941195773],
     Libelle: 'جبل الضلعه',
     type: 'station',
+    UniqueID: '1583351e6ca177d7697c98d6179df79b',
   },
   {
     WilayaCode: 7,
@@ -2507,78 +2572,79 @@ let ligne = [
     coords: [34.85597202053605, 5.72345079079034],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '529ff332b6bbcd970af4a0fe07b7e3b7',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85673356209584, 5.724504969974645],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '76d84b31cbc690871b83c1571345e7bc',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85734102949928, 5.723888182934763],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '430ddf62b2c7e9a6aa5811a420e45fe1',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85789566973257, 5.723341620620955],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'c3c4ca4ef0709066ee07a96a69ce9c48',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.85888168758027, 5.722022232692203],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '0087b2fde488dda715a84e9155e1a267',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.859577175203526, 5.720799054869336],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '830e7f635a06a8b5982fe2715a7bc1a8',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.86073484092799, 5.719709564406009],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '98e45a039e7aff2f342e353297aa970b',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.860752447885474, 5.719521560340573],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '0207e5828529f35d65c902c426238b85',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.86058958338503, 5.7194893801471824],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'ca233f0b539a2bfaed93e8357c0a0887',
   },
   {
     WilayaCode: 7,
     LigneCode: 5,
     coords: [34.860078979077095, 5.720127620649311],
-
     Libelle: 'none',
     type: 'station',
+    UniqueID: '4f9d5e45bb95f0448c4d51ea3199ce98',
   },
   {
     WilayaCode: 7,
@@ -2587,599 +2653,599 @@ let ligne = [
     distance: 'عيادة النخيل',
     Libelle: 'عيادة النخيل',
     type: 'end',
+    UniqueID: '54a30dfd9473a9ffa331fa570eff0b5f',
   },
-
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.83690477249006, 5.762393474578858],
     Libelle: 'تعاونية 1077',
     type: 'start',
+    UniqueID: '963dba3b86bdaf6af76eaefae4c8d62f',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.83791745965089, 5.758329573745447],
     Libelle: 'تعاوينة 1077 مسكن 2',
     type: 'station',
+    UniqueID: '182cde271058a5602b03e2141cd21d40',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.83846342495165, 5.755344654142159],
     Libelle: 'تعاوينة 1077 مسكن 3',
     type: 'station',
+    UniqueID: 'b93fb1e651cb614c4c0291bb98b54772',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.83907983303604, 5.752123517879637],
     Libelle: 'تعاوينة 1077 مسكن 4',
     type: 'station',
+    UniqueID: 'fb2d19705189a7599f944b575a26faee',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.839247143005366, 5.751644912373611],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '0d23b9a7484c613347385d60c68d9c90',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.83950251019765, 5.751430169956124],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'd4d411193efb3e2ffc044126ee27ddd5',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.83955094181717, 5.75121005897816],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '1592c63998e3840508e7f8704d69a9da',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84133408615169, 5.749025510544931],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '4ef2ad9490ffcdfcbe71e7563bae49ef',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.842742962999004, 5.747350519688435],
     Libelle: 'جامعة محمد خيضر العالية',
     type: 'station',
+    UniqueID: '32f1dc05758da994b995bce84edf5df7',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84293668167958, 5.747140872432439],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '22e24401584088d606ebbda0ccf5b592',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.843077567706366, 5.7469959213006625],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '23efbf1116db86a63c38d715456e6b4d',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84302033278706, 5.746834864487536],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '85bde4cd61c2e2c62f0c5536a5baf107',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84275176840347, 5.746507382300848],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '161ce17974c8703846bcf31f98428bd6',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84219262335074, 5.745433670213328],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '8d1db47ec5d7467ad47346c2d956726e',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84176555724799, 5.744166689950064],
     Libelle: 'سوق الجملة للخضر',
     type: 'station',
+    UniqueID: '0ba2db92386c9bed676ddd120775f639',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84121080828019, 5.742412759687917],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '2d71e36bc15c3b47973297c91b35624d',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.83974907087298, 5.737515008767287],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'b3b270ab72dd18376deaf188ec727537',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.83983712807805, 5.737130499490628],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '72779ded1a0e4db4bec5f4fe05f8a773',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.840277412690426, 5.736873145007785],
     Libelle: 'لمسيد',
     type: 'station',
+    UniqueID: '80e69d4ea15868ad9f0c3af8b689cd1e',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84177436275703, 5.7364013284559165],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '0b11a0026367bb4249e2b2d4d7e40bdb',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84867759194899, 5.736464333984752],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '741403a9d5b187091e12e297242a845f',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.852005727696366, 5.736604660406354],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '3441dba554ab9e65d668683c0d4ed101',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.85217301138971, 5.73432063937113],
     Libelle: 'المحكمة',
     type: 'station',
+    UniqueID: '478163fddba7edc9c33a11313e7e1d8e',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.8522522509152, 5.730986909878189],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '99e893273a61369cccdcf0831d25e7fa',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.85579594055926, 5.731079710189665],
     Libelle: 'موبيليس',
     type: 'station',
+    UniqueID: '526a05bac81e1e5e067a5c837af7fbf1',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.8566499249281, 5.731038838298833],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '8d7a5af1d56416d5e9bb2e14cd5d30d3',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.85557143804226, 5.729510314493664],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'dd8ff2eae246e351066ca8360e999ff3',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.85734983334171, 5.727750844210316],
     Libelle: 'جنان البايك',
     type: 'station',
+    UniqueID: '608cbd40b351fc2f2fb5a0f403fc1624',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.85823021282707, 5.726710375374507],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'c67ec665cf496df7fd581c3dd1201d04',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.85668954254447, 5.724554048758122],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '6d611cab99459ae4ab48f7d68f78db5e',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.85584436259046, 5.725326355522823],
     Libelle: 'الدايرة لقديمة',
     type: 'station',
+    UniqueID: 'ab5f6871994f28609729600bd854f044',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.85477907132059, 5.726559901049828],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '6c1ed570c1fd8c45a6fc9b0cf4bd66f0',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.851856052524575, 5.722386958007433],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'dc4cade50e7505597a1fabb908d32d30',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.85124854462019, 5.72143230103436],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'e22081d3b9f47cc49caa205236efa7d4',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.850526572872084, 5.7206162705956185],
     Libelle: 'الامن الحضري الثاني',
     type: 'station',
+    UniqueID: 'c7023445f3078ead9704b29f78ef2220',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.849540454883396, 5.719828124219496],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '455068e1d6c612533b586e3c4413d42f',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84799081702441, 5.718519381714007],
     Libelle: 'سوق البخاري',
     type: 'station',
+    UniqueID: '595dcb680fe05574aede48746a25b5e0',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84625624458074, 5.717103592744746],
     Libelle: 'بريد البخاري',
     type: 'station',
+    UniqueID: '14d10402bfd617ffea6cc8222846b12a',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.845736746226734, 5.716674565784388],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '13142afd18544f2a9932be4fcee0471d',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.845507813707705, 5.71614900775793],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '85ea91bd471391d57aba290486d60a95',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.845463788150276, 5.715698529449513],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '944a5fe522adca54427e5e4039cd8e22',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84581599195031, 5.71456697084154],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '4371862015add732e526150d4489f19e',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84658203001099, 5.711679215099369],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '08e3b42a77bcf4ef43701639998283f7',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84692102158951, 5.71054416008515],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '2ade1acbdfe9014fc0c33e5e4c1bbae5',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84752415899751, 5.7097343716974445],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'c7b63c4f721d39772713ff7df669add7',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.847638622532045, 5.709493044032233],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'fdd87584497f87007d41657e498d18d4',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84753296389041, 5.709176636648938],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'd861b6dc958083adce8c399943298011',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84733925602843, 5.70910691976791],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '5d73fa9ece11092d95b3a9304ca2f548',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.847127937840725, 5.709262442041011],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '66cc636fd5c63b2540b785cf633ceffb',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84701787606975, 5.709702194675398],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '377b5b062054376906e2ff2ffbf82d4c',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.846678884890196, 5.710806939098379],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'a0437fe52abfa79e3e902664d5c56932',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.846568822518655, 5.711048266763591],
     Libelle: 'المجلس القضائي',
     type: 'station',
+    UniqueID: '3379afe272117f5e606f00c5ca01fc47',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84629146468943, 5.7122441794156575],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'edc9cac70770644fa3c0bef05188109c',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.846128571560385, 5.712110092680304],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '156424e527490f286c8557546cf0c536',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.8459568730483, 5.7125176682926435],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'b4581af407703b586ccda36e8704a5bf',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84564869533323, 5.71289842971999],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'b978d47c45e9ac45f3968c5d85e2b770',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84522164716339, 5.712973509438034],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'f8cebd56849e4fad619744dd6eef49ca',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84351783498566, 5.712016284919624],
     Libelle: 'السايحي',
     type: 'station',
+    UniqueID: 'e272799c29819d52140ce9447afdfc1a',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.840770528660414, 5.710600495950404],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '82fca5718bad3b5749ab3be02e1aea63',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84117558599726, 5.710074937923944],
     Libelle: 'مسجد التوبة',
     type: 'station',
+    UniqueID: 'e333347193a9ab1d3d2f3745736c311c',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84284862779039, 5.707940528796064],
     Libelle: 'محطة الامل',
     type: 'station',
+    UniqueID: '82812a77fad11df72a75a1257c39835f',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84432792062619, 5.706556916848809],
     Libelle: 'معهد التكوين المهني',
     type: 'station',
+    UniqueID: 'de1901d5ca1e5deabd870f7ecf850fe4',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.844627298084205, 5.706403221460393],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '03733fba6c75b1405dfaf870788e7b55',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84490025893499, 5.706478301178436],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'a22f554ba92a7a0f657759f823750a1f',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84501032353809, 5.706167256632156],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '5d11b9b2093c5a85deee21863cb0d19c',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84483862269298, 5.706027822870059],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'e91bd2e0c6f0df7238a7d457e83d7116',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.8446228954824, 5.70592056612997],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '7501f142e73787de77067749152512c1',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84235552427003, 5.703210781656241],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '6c066305963a19982936489cf97ecdd4',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.84022457866128, 5.700569832631892],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '50a2d875d359e61bef6ed3aebbdc18c2',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.83758283396714, 5.696279563028114],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '03c0bb06f61312b6062be105f3e77bb6',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.83673745776003, 5.694604027410781],
     Libelle: 'حي 176 مسكن',
     type: 'station',
+    UniqueID: 'ec06ed17e326f591b8b6a1e24560c318',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.833567219668524, 5.6882973310932],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '619ee84d8f55c8b90f3c9a182b4c837d',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.8290582263407, 5.6798884026698255],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '19568ec1fc85408e0f5ef2a21295ac86',
   },
   {
     WilayaCode: 7,
     LigneCode: 8,
-
     coords: [34.82708546411951, 5.680617748502472],
     Libelle: 'المحطة البرية الجديدة',
     type: 'end',
+    UniqueID: '172e929404d263019f5f67f072aa38de',
   },
   {
     WilayaCode: 7,
@@ -3187,6 +3253,7 @@ let ligne = [
     coords: [34.879101250090244, 5.696883201599122],
     Libelle: 'القطب الجديد عصامي 1',
     type: 'start',
+    UniqueID: 'f7ed34fed1f201b27e62aa5be2cdc092',
   },
   {
     WilayaCode: 7,
@@ -3194,6 +3261,7 @@ let ligne = [
     coords: [34.87582702187642, 5.695256848516075],
     Libelle: 'القطب الجديد عصامي 2',
     type: 'station',
+    UniqueID: '3c6526a46b7bd7fd94f7ec99359a0b55',
   },
   {
     WilayaCode: 7,
@@ -3201,6 +3269,7 @@ let ligne = [
     coords: [34.872482245498425, 5.693626542318674],
     Libelle: 'القطب الجديد عصامي 3',
     type: 'station',
+    UniqueID: '1ee6da7a7c310c568e97e01e15b4dd29',
   },
   {
     WilayaCode: 7,
@@ -3208,6 +3277,7 @@ let ligne = [
     coords: [34.86737679814149, 5.6911810830225305],
     Libelle: 'القطب الجديد عصامي 4',
     type: 'station',
+    UniqueID: '610622903302c98e1193755c51ea641a',
   },
   {
     WilayaCode: 7,
@@ -3215,6 +3285,7 @@ let ligne = [
     coords: [34.86700267961972, 5.6909347804669395],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'd470c88182805a90adfe9bb3ca76eef1',
   },
   {
     WilayaCode: 7,
@@ -3222,6 +3293,7 @@ let ligne = [
     coords: [34.86490318292705, 5.696818665688786],
     Libelle: 'مركب سيدي يحيى',
     type: 'station',
+    UniqueID: '77f4f7e4d7653f647ef276257bc337c5',
   },
   {
     WilayaCode: 7,
@@ -3229,6 +3301,7 @@ let ligne = [
     coords: [34.864674303737196, 5.697333637247103],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'd6d39bc5dc42c5dda69ec483a57dc16a',
   },
   {
     WilayaCode: 7,
@@ -3236,6 +3309,7 @@ let ligne = [
     coords: [34.862896066794086, 5.6961858762357895],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '18eed7d70d1f532c2ea20d42262d715a',
   },
   {
     WilayaCode: 7,
@@ -3243,6 +3317,7 @@ let ligne = [
     coords: [34.85748189086516, 5.692635139902471],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'a9ab4f9c1498a2d268d4dc96c1fe777e',
   },
   {
     WilayaCode: 7,
@@ -3250,6 +3325,7 @@ let ligne = [
     coords: [34.84839583882716, 5.68628382401665],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '085d171d803dabc2de13d6af23bda76d',
   },
   {
     WilayaCode: 7,
@@ -3257,6 +3333,7 @@ let ligne = [
     coords: [34.848246157088795, 5.687077145497199],
     Libelle: 'حي 250 مسكن',
     type: 'station',
+    UniqueID: 'fb026c01b047eec8afdb031ecbb0bce1',
   },
   {
     WilayaCode: 7,
@@ -3264,6 +3341,7 @@ let ligne = [
     coords: [34.8475417687824, 5.687903245705318],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'ddac7b824e5a9821a1f1e14c8fc5a8d8',
   },
   {
     WilayaCode: 7,
@@ -3271,6 +3349,7 @@ let ligne = [
     coords: [34.8473744756736, 5.688160731484496],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '5bb92762a38b8291e8470eebd059b023',
   },
   {
     WilayaCode: 7,
@@ -3278,6 +3357,7 @@ let ligne = [
     coords: [34.84733925602843, 5.68905120313739],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '8606a39abc84e51736ff8d42f58aa5b3',
   },
   {
     WilayaCode: 7,
@@ -3285,357 +3365,358 @@ let ligne = [
     coords: [34.847418500208875, 5.689576903269857],
     Libelle: 'سوق لخميس',
     type: 'station',
+    UniqueID: 'c4b5ced783eb01e8eaa414804693ec97',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'عيادة متعددة الخدمات',
     duration: 0,
-
     coords: [34.8475417687824, 5.6922751665115365],
     type: 'station',
+    UniqueID: '0948b27315bff4a543e8bc6ecb082b20',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'حي 240 مسكن',
     duration: 0,
-
     coords: [34.84762541520927, 5.6950217485427865],
     type: 'station',
+    UniqueID: '8544e32030336203bccfc34968b11e48',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'حي 240 مسكن 1',
     duration: 0,
-
     coords: [34.84786314669509, 5.697285532951356],
     type: 'station',
+    UniqueID: '8fedd16790c40dd6d319607bc46d1045',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'معهد الموسيقى',
     duration: 0,
-
     coords: [34.84815370646732, 5.699887275695802],
     type: 'station',
+    UniqueID: '027a6fc73fd387d323f10c466ab6f88e',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'عمارات الدرنوني',
     duration: 0,
-
     coords: [34.84874411122033, 5.703266859054566],
     type: 'station',
+    UniqueID: 'a904e8d631daf7874c7f3195e2a0e917',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'خدمات التربية',
     duration: 0,
-
     coords: [34.84942243200093, 5.705364346504212],
     type: 'station',
+    UniqueID: 'e9e66ddab3bc6c8263d5d0c5aa077ca1',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84939603059444, 5.705696940422058],
     type: 'station',
+    UniqueID: 'ff1d4dec502ff1889c66f9d3b9be9b3c',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84930802584502, 5.705873966217041],
     type: 'station',
+    UniqueID: '6f412214eac75ee9a23d2b6159eb2364',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'عيادة طب العيون',
     duration: 0,
-
     coords: [34.849154017307036, 5.705991983413697],
     type: 'station',
+    UniqueID: '739404ab27d4fa191662b57578f74108',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84894280301765, 5.70616900920868],
     type: 'station',
+    UniqueID: '07e3327b93454546a9ae79e3a96ab338',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.848872398837884, 5.7064855098724365],
     type: 'station',
+    UniqueID: 'b92de9ae95e0d628375f83e84b3d4385',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.8495720376995, 5.70666790008545],
     type: 'station',
+    UniqueID: '02624f0e1acc9f3add9f3a743c55e99a',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'حي 726 مسكن',
     duration: 0,
-
     coords: [34.84947523267702, 5.70717215538025],
     type: 'station',
+    UniqueID: 'a769b062c5fbb5012b303d908a4e8f02',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84915841544354, 5.708969235420227],
     type: 'station',
+    UniqueID: '964a1f9287e38f745e9456827f4c9f1d',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84856878012251, 5.709001421928407],
     type: 'station',
+    UniqueID: '0e1eb1fe22f9564d205ea17b322152ad',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.8480979488846, 5.709108710289002],
     type: 'station',
+    UniqueID: '85bc57bf7b318cd3accaa26ff9e245ea',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84753030764225, 5.7091623544693],
     type: 'station',
+    UniqueID: 'df02e288a0d765fc8dd82fc566e91bf5',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84721348292066, 5.70917308330536],
     type: 'station',
+    UniqueID: '3804a8d72849e9374eb5fcc743a45bb4',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.847055070102456, 5.709511041641236],
     type: 'station',
+    UniqueID: 'a0e87a154804919d5a4cb46dcb08a6c8',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.846870254762464, 5.710321068763733],
     type: 'station',
+    UniqueID: '8a4306ea5efb289e62eb2de5755cd6cf',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84659303097423, 5.711055994033814],
     type: 'station',
+    UniqueID: 'ee5ed6d8ef1923277db392898b504764',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'ثانوية الحكيم سعدان',
     duration: 0,
-
     coords: [34.84648302127565, 5.711447596549989],
     type: 'station',
+    UniqueID: '1debcc75b486b9ee182cae02c6980b85',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84575695357676, 5.7143980264663705],
     type: 'station',
+    UniqueID: '7c32a32171a80a196944f368bfbb951c',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84532130988266, 5.714982748031617],
     type: 'station',
+    UniqueID: 'bf741ed736124eb83eb62e87e8967589',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.844995675716326, 5.715229511260986],
     type: 'station',
+    UniqueID: 'c55a112f14f6ebaad22f6a7f2b580135',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84474044803663, 5.71564793586731],
     type: 'station',
+    UniqueID: '75834b9a7fb347c70c1ee443aebe8b6a',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84482845767078, 5.716173648834229],
     type: 'station',
+    UniqueID: 'b5b5cec0265bd43220723223068ec90a',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84554573267974, 5.716736912727356],
     type: 'station',
+    UniqueID: '0e618cdd19061293adf9661bd39822e3',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'بريد البخاري',
     duration: 0,
-
     coords: [34.84625420063154, 5.717386007308961],
     type: 'station',
+    UniqueID: 'e47a5fa805917af3c51550d16b2e7bdb',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'مسجد النصر',
     duration: 0,
-
     coords: [34.84757431097934, 5.718415975570679],
     type: 'station',
+    UniqueID: '6374ea6bfba44cced0e3239eea8bcd7e',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.84996405380291, 5.72037935256958],
     type: 'station',
+    UniqueID: '22c2cb310c798cdfbe8aeef1a62ecd81',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'الامن الحضري الثاني',
     duration: 0,
-
     coords: [34.85025868541088, 5.720631480216981],
     type: 'station',
+    UniqueID: 'ff5d697be2544a89265a42564e87f997',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85098911354078, 5.721194744110108],
     type: 'station',
+    UniqueID: 'bfdb29a715856042fede04916c128dbf',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85148192885674, 5.721951127052307],
     type: 'station',
+    UniqueID: '442a0e3bd90e3b6d9a9580d4c95e9d32',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'كوري جاك',
     duration: 0,
-
     coords: [34.85170633485294, 5.722353458404542],
     type: 'station',
+    UniqueID: '4a74a6771b16cb3b482e066bc213b6d3',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.8523619488651, 5.7232868671417245],
     type: 'station',
+    UniqueID: '3d9b9abf34f2442141879d072b4c7aeb',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.85344789493861, 5.724842548370362],
     type: 'station',
+    UniqueID: '61efdd3447182ecca883a2a36df9ccdc',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.8544609042708, 5.724204182624818],
     type: 'station',
+    UniqueID: 'b7fb8d9a7f9a16db3c9d3bc59877c3e2',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.854795300874876, 5.724016427993775],
     type: 'station',
+    UniqueID: '42fb26a212f7c207e422a66629ce9eb3',
   },
   {
     WilayaCode: 7,
@@ -3643,32 +3724,24 @@ let ligne = [
     coords: [34.85512431908615, 5.724117141204675],
     Libelle: 'الضلعة',
     type: 'station',
+    UniqueID: 'ef1f243f6826184e8666c672c98f58f8',
   },
   {
     WilayaCode: 7,
     LigneCode: 10,
     Libelle: 'NONE',
     duration: 0,
-
     coords: [34.855415690974496, 5.724075436592103],
     type: 'station',
+    UniqueID: '4ace9879ce60133e101fd0450e493e46',
   },
-  // {
-  //   WilayaCode: 7,
-  //   LigneCode: 10,
-  //   Libelle: 'NONE',
-  //   duration: 0,
-
-  //   coords: [34.85613727357384, 5.72514295578003],
-  //   type: 'station',
-  // },
-
   {
     WilayaCode: 7,
     LigneCode: 10,
     coords: [34.85598082452501, 5.723520581136442],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '77f248228f83e0016c17b86d3581fadd',
   },
   {
     WilayaCode: 7,
@@ -3676,6 +3749,7 @@ let ligne = [
     coords: [34.856729160141754, 5.72457280467714],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '5da83d44b25efae97c444defa9831a10',
   },
   {
     WilayaCode: 7,
@@ -3683,6 +3757,7 @@ let ligne = [
     coords: [34.85772399577424, 5.723531318111351],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '6e755afad72c20b3a69235f780634a5d',
   },
   {
     WilayaCode: 7,
@@ -3690,6 +3765,7 @@ let ligne = [
     coords: [34.85871441752782, 5.72226435507255],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'a3895d58a3d60957933f1bb4475c1fa6',
   },
   {
     WilayaCode: 7,
@@ -3697,6 +3773,7 @@ let ligne = [
     coords: [34.85926904850102, 5.7213946601052665],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '437cd8224599ed32703bb520c859aca5',
   },
   {
     WilayaCode: 7,
@@ -3704,6 +3781,7 @@ let ligne = [
     coords: [34.8596432022039, 5.720750441610956],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '4510dfc26286d237f5ac37475c278181',
   },
   {
     WilayaCode: 7,
@@ -3711,6 +3789,7 @@ let ligne = [
     coords: [34.86046633435953, 5.719902220593452],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '0cdccc6e6b084c3f3254d2fe4041ba78',
   },
   {
     WilayaCode: 7,
@@ -3718,6 +3797,7 @@ let ligne = [
     coords: [34.86073484092799, 5.719717404913252],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'd3737b07a60433bb60627ce5cd423882',
   },
   {
     WilayaCode: 7,
@@ -3725,6 +3805,7 @@ let ligne = [
     coords: [34.86073924266771, 5.719556350289695],
     Libelle: 'none',
     type: 'station',
+    UniqueID: 'c0ea14c09bcea6eeff099522394731b3',
   },
   {
     WilayaCode: 7,
@@ -3732,6 +3813,7 @@ let ligne = [
     coords: [34.86058077988933, 5.719475822977916],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '87d38be69ea775afce02ef95eae758bb',
   },
   {
     WilayaCode: 7,
@@ -3739,6 +3821,7 @@ let ligne = [
     coords: [34.86050595013787, 5.719652983063837],
     Libelle: 'none',
     type: 'station',
+    UniqueID: '91ac6cb8d78852c12950d669c55fcde5',
   },
   {
     WilayaCode: 7,
@@ -3746,5 +3829,6 @@ let ligne = [
     coords: [34.859977738191226, 5.720254253658511],
     Libelle: 'عيادة النخيل',
     type: 'end',
+    UniqueID: '61feaa30a3f2d90a1dd7ad0dcb0d4119',
   },
 ];

@@ -8,6 +8,7 @@ const inputWilaya = document.querySelector('.form__input--wilaya');
 const inputLineTransport = document.querySelector(
   '.form__input--linetransport'
 );
+const containerStations = document.querySelector('.stations');
 const inputDistance = document.querySelector('.form__input--distance');
 const inputDuration = document.querySelector('.form__input--duration');
 const inputCadence = document.querySelector('.form__input--cadence');
@@ -47,5 +48,27 @@ class wilaya {
         `<option value="${item.Code}"  >${item.Libelle}</option> `
       )
     );
+  }
+  static renderLigneTransportOfSelectedWilaya(currWilaya) {
+    let currentWilayaCode = currWilaya; //this.currentSelectedWilaya.Num;
+    let LigneTransportUniqueValue = Array.from(
+      new Set(
+        ligne.map(function (line) {
+          if (line.WilayaCode === currentWilayaCode) return line.LigneCode;
+        })
+      )
+    );
+    // console.log(LigneTransportUniqueValue);
+
+    inputLineTransport.innerHTML =
+      '<option  value="0" Selected >خط نقل رقم</option> ';
+
+    if (LigneTransportUniqueValue?.[0] !== undefined)
+      LigneTransportUniqueValue.forEach(item =>
+        inputLineTransport.insertAdjacentHTML(
+          'beforeend',
+          `<option  value="${item}" > خط رقم ${item}</option> `
+        )
+      );
   }
 }
