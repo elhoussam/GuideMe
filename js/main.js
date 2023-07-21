@@ -3,15 +3,25 @@
 /* the main class */
 class App {
   #map;
+  #mapEvent;
   mapo;
   #wilayas = [];
-  #workouts;
+  newBusStation = [];
   currentSelectedWilaya;
   currentSelectedLigneInWilaya;
+
   constructor() {
     this._getPosition();
     wilaya.renderWilayaInput();
+
+    form2.addEventListener('submit', this._newBusStation.bind(this));
+    //this._newBusStation.bind(this)
+
     inputWilaya.addEventListener('change', this._selectWilaya.bind(this));
+    inputWilaya2.addEventListener('change', () => {
+      inputBusLineName.classList.remove('hidden');
+      inputBusLineName.value = '';
+    });
     inputLineTransport.addEventListener(
       'change',
       this._renderSelectedLigneOfTransport.bind(this)
@@ -21,6 +31,10 @@ class App {
       'click',
       this._focusOnBusStation.bind(this)
     );
+    logo.addEventListener('click', () => {
+      containerStations.classList.toggle('stationsToggle');
+      sidebar.classList.toggle('sidebarToggle');
+    });
   }
   _getPosition() {
     navigator.geolocation.getCurrentPosition(this._loadMap.bind(this));
@@ -34,7 +48,9 @@ class App {
       minZoom: 6,
       zoomControl: false,
     }).setView([latitude, longitude], 13);
+
     this.mapo = this.#map;
+
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -46,15 +62,20 @@ class App {
       })
       .addTo(this.#map);
 
-    // Showing the form to edit he current position
-    // this.#map.on('click', this._showForm.bind(this));
+    // Handling clicks on map
+    this.#map.on('click', this._showStationInput.bind(this));
   }
+
   _renderStationsMarkers(wilayaCode, lineCode) {
     ligne.forEach(station => {
-      station.Libelle.toLowerCase() !== 'none' &&
+      if (
+        station.Libelle.toLowerCase() !== 'none' &&
         station.WilayaCode === wilayaCode &&
-        station.LigneCode === lineCode &&
+        station.LigneCode === lineCode
+      ) {
         this._renderStationMarker(station);
+        this._renderBusStationSideBar(station);
+      }
     });
   }
   _renderStationMarker(station) {
@@ -88,9 +109,6 @@ class App {
     marker.on('mouseover', function (ev) {
       marker.openPopup();
     });
-
-    // render bus station on the left side bar
-    this._renderBusStationSideBar(station);
   }
   _renderStationsPath(wilayaCode, lineCode) {
     let lineCoords = [];
@@ -126,7 +144,7 @@ class App {
     containerStations.innerHTML = '';
   }
   _renderSelectedLigneOfTransport() {
-    console.log(inputLineTransport.value);
+    // console.log(inputLineTransport.value);
     if (+inputLineTransport.value === 0) return;
     //clear the map first
     this._clearMap();
@@ -144,10 +162,10 @@ class App {
       ligne.filter(line => line.WilayaCode === +inputWilaya.value),
       'unkown'
     );
-    console.log(this.currentSelectedWilaya);
+    // console.log(this.currentSelectedWilaya);
     wilaya.renderLigneTransportOfSelectedWilaya(this.currentSelectedWilaya.Num);
   }
-  _renderBusStationSideBar(busStation) {
+  _renderBusStationSideBar(busStation, flag = true) {
     // literal
     let htmlElement = `<div class="station" data-uniqueid='${
       busStation.UniqueID
@@ -157,8 +175,11 @@ class App {
     <img class="pathinto ${
       busStation.type === 'end' ? 'hidden' : ''
     }" src="img/BetweenStation.png" alt="" />
-  </div>`;
-    containerStations.insertAdjacentHTML('beforeend', htmlElement);
+    </div>`;
+
+    let stations = flag ? containerStations : containerStations2;
+
+    stations.insertAdjacentHTML('beforeend', htmlElement);
   }
   _focusOnBusStation(ev) {
     // get the coloses parent has unique id
@@ -188,6 +209,58 @@ class App {
       }
     });
   }
+
+  _showStationInput(mapE) {
+    this.#mapEvent = mapE;
+    inputBusStationName.classList.remove('hidden');
+    inputBusLineName.classList.remove('hidden');
+    inputBusStationName.value = '';
+    inputBusStationName.focus();
+  }
+  _newBusStation(e) {
+    e.preventDefault();
+    // console.log('loading');
+    // Get data from form
+    const { lat, lng } = this.#mapEvent.latlng;
+    // Check form data
+    if (+inputBusLineName.value.length === 0) {
+      alert('يجب ادخال اسم خط النقل');
+      return;
+    }
+    if (+inputBusStationName.value.length === 0) {
+      alert('يجب ادخال اسم خط المحطة');
+      return;
+    }
+
+    // Create new Station Object
+    let newStation = new stationBus(
+      inputBusStationName.value,
+      0,
+      [lat, lng],
+      ''
+    );
+    // Save it in Array
+    this.newBusStation.push(newStation);
+    // Render in the Map
+    this._renderStationMarker(newStation);
+    // Render workout on list
+    this._renderBusStationSideBar(newStation, false);
+    // Copy into clipboard
+    let line = new lineTransport(
+      inputBusLineName.value,
+      inputBusLineName.value,
+      0,
+      this.newBusStation,
+      ''
+    );
+    navigator.clipboard.writeText(
+      JSON.stringify({
+        LibelleLine: inputBusLineName.value,
+        ligneTrasport: line,
+        wilaya: inputWilaya2.value,
+      })
+    );
+  }
 }
 
-const mapify = new App();
+const guideme = new App();

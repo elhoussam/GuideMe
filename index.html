@@ -46,6 +46,28 @@
       </form>
       <section class="stations"></section>
     </aside>
+
+    <aside class="sidebar BusLineForm">
+      <form class="form form2">
+        <div class="form__row">
+          <select class="form__input form__input--wilaya2">
+            <option value="0">ولاية</option>
+          </select>
+          <input
+            class="form__input input--busLineName hidden"
+            type="text"
+            placeholder="رقم خط النقل"
+          />
+          <input
+            class="form__input input--busStationName hidden"
+            type="text"
+            placeholder="اسم المحطة"
+          />
+        </div>
+        <button class="form__btn">OK</button>
+      </form>
+      <section class="stations-added"></section>
+    </aside>
     <div id="map"></div>
   </body>
 </html>

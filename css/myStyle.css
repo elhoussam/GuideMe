@@ -65,6 +65,9 @@ html {
   z-index: 1;
 }
 
+.wilaya-bolder {
+  font-weight: bold;
+}
 body {
   font-family: 'Manrope', sans-serif;
   color: var(--color-light--2);
@@ -108,64 +111,6 @@ a:visited {
   height: 5.2rem;
   align-self: center;
   /* margin-bottom: 4rem; */
-}
-
-.workouts {
-  list-style: none;
-  height: 77vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
-.workouts::-webkit-scrollbar {
-  width: 0;
-}
-
-.workout {
-  background-color: var(--color-dark--2);
-  border-radius: 5px;
-  padding: 1.5rem 2.25rem;
-  margin-bottom: 1.75rem;
-  cursor: pointer;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 0.75rem 1.5rem;
-}
-.workout--running {
-  border-left: 5px solid var(--color-brand--2);
-}
-.workout--cycling {
-  border-left: 5px solid var(--color-brand--1);
-}
-
-.workout__title {
-  font-size: 1.7rem;
-  font-weight: 600;
-  grid-column: 1 / -1;
-}
-
-.workout__details {
-  display: flex;
-  align-items: baseline;
-}
-
-.workout__icon {
-  font-size: 1.8rem;
-  margin-right: 0.2rem;
-  height: 0.28rem;
-}
-
-.workout__value {
-  font-size: 1.5rem;
-  margin-right: 0.5rem;
-}
-
-.workout__unit {
-  font-size: 1.1rem;
-  color: var(--color-light--1);
-  text-transform: uppercase;
-  font-weight: 800;
 }
 
 .form {
@@ -217,7 +162,8 @@ a:visited {
   font-size: 1.4rem;
   border: 1px dotted rgba(0, 0, 0, 0.2);
   border-radius: 3px;
-  background-color: var(--color-light--3);
+  color: black;
+  /* background-color: var(--color-light--3); */
   transition: all 0.2s;
 }
 .form__input option {
@@ -230,24 +176,6 @@ a:visited {
 
 .form__btn {
   display: none;
-}
-
-.copyright {
-  margin-top: auto;
-  font-size: 1.3rem;
-  text-align: center;
-  color: var(--color-light--1);
-}
-
-.twitter-link:link,
-.twitter-link:visited {
-  color: var(--color-light--1);
-  transition: all 0.2s;
-}
-
-.twitter-link:hover,
-.twitter-link:active {
-  color: var(--color-light--2);
 }
 
 /* MAP */
@@ -282,4 +210,35 @@ a:visited {
 .start-popup .leaflet-popup-content-wrapper,
 .end-popup .leaflet-popup-content-wrapper {
   border-top: 5px solid var(--color-brand--1);
+}
+.BusLineForm {
+  /* background-color: red; */
+  left: 1.2rem; /*5*/
+  height: 78vh;
+}
+.BusLineForm .form {
+  grid-template-columns: 1fr;
+  height: auto;
+}
+
+@media (max-width: 1200px) {
+  /* Your CSS rules for screens less than 1200px */
+
+  .stations {
+    display: none;
+  }
+  .stationsToggle {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar {
+    height: auto;
+  }
+  .sidebarToggle {
+    height: 95vh;
+  }
+
+  .BusLineForm {
+    display: none;
+  }
 }
