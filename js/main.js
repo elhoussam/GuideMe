@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /* the main class */
 class App {
@@ -14,62 +14,81 @@ class App {
     this._getPosition();
     wilaya.renderWilayaInput();
 
-    form2.addEventListener('submit', this._newBusStation.bind(this));
+    form2.addEventListener("submit", this._newBusStation.bind(this));
     //this._newBusStation.bind(this)
 
-    inputWilaya.addEventListener('change', this._selectWilaya.bind(this));
-    inputWilaya2.addEventListener('change', () => {
-      inputBusLineName.classList.remove('hidden');
-      inputBusLineName.value = '';
+    inputWilaya.addEventListener("change", this._selectWilaya.bind(this));
+    inputWilaya2.addEventListener("change", () => {
+      inputBusLineName.classList.remove("hidden");
+      inputBusLineName.value = "";
     });
     inputLineTransport.addEventListener(
-      'change',
+      "change",
       this._renderSelectedLigneOfTransport.bind(this)
     );
 
     containerStations.addEventListener(
-      'click',
+      "click",
       this._focusOnBusStation.bind(this)
     );
-    logo.addEventListener('click', () => {
-      containerStations.classList.toggle('stationsToggle');
-      sidebar.classList.toggle('sidebarToggle');
+    logo.addEventListener("click", () => {
+      containerStations.classList.toggle("stationsToggle");
+      sidebar.classList.toggle("sidebarToggle");
     });
   }
   _getPosition() {
-    navigator.geolocation.getCurrentPosition(this._loadMap.bind(this));
+    navigator.geolocation.getCurrentPosition(
+      this._loadMap.bind(this),
+
+      this._loadDefaultPosition()
+    );
+  }
+  _loadDefaultPosition() {
+    this._loadMap({
+      coords: { latitude: 34.85325594496619, longitude: 5.714950561523439 },
+    });
   }
   _loadMap(position) {
     const { latitude } = position.coords;
     const { longitude } = position.coords;
+    console.log(position.coords);
+    // console.log(this.#map);
 
-    this.#map = L.map('map', {
-      maxZoom: 18,
-      minZoom: 6,
-      zoomControl: false,
-    }).setView([latitude, longitude], 13);
+    let mapElement = document.querySelector("#map");
 
-    this.mapo = this.#map;
+    console.log(mapElement.innerHTML.length);
 
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    }).addTo(this.#map);
+    if (mapElement.innerHTML.length === 0) {
+      console.log("is NOT loaded");
+      this.#map = L.map("map", {
+        maxZoom: 18,
+        minZoom: 6,
+        zoomControl: false,
+      }).setView([latitude, longitude], 13);
+      this.mapo = this.#map;
 
-    L.control
-      .zoom({
-        position: 'bottomleft',
-      })
-      .addTo(this.#map);
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      }).addTo(this.#map);
 
-    // Handling clicks on map
-    this.#map.on('click', this._showStationInput.bind(this));
+      L.control
+        .zoom({
+          position: "bottomleft",
+        })
+        .addTo(this.#map);
+
+      // Handling clicks on map
+      this.#map.on("click", this._showStationInput.bind(this));
+    } else {
+      console.log("is aready loaded");
+    }
   }
 
   _renderStationsMarkers(wilayaCode, lineCode) {
-    ligne.forEach(station => {
+    ligne.forEach((station) => {
       if (
-        station.Libelle.toLowerCase() !== 'none' &&
+        station.Libelle.toLowerCase() !== "none" &&
         station.WilayaCode === wilayaCode &&
         station.LigneCode === lineCode
       ) {
@@ -81,10 +100,10 @@ class App {
   _renderStationMarker(station) {
     let myIcon = new L.Icon({
       iconUrl:
-        station.type !== 'station'
-          ? 'img/markers/marker-icon-green.png'
-          : 'img/markers/marker-icon-grey.png',
-      shadowUrl: 'img/markers/marker-shadow.png',
+        station.type !== "station"
+          ? "img/markers/marker-icon-green.png"
+          : "img/markers/marker-icon-grey.png",
+      shadowUrl: "img/markers/marker-shadow.png",
       iconSize: [25, 41],
       iconAnchor: [12, 41],
       popupAnchor: [1, -34],
@@ -106,27 +125,27 @@ class App {
       )
       .setPopupContent(`${station.Libelle}`);
     // .openPopup();
-    marker.on('mouseover', function (ev) {
+    marker.on("mouseover", function (ev) {
       marker.openPopup();
     });
   }
   _renderStationsPath(wilayaCode, lineCode) {
     let lineCoords = [];
     ligne.forEach(
-      station =>
+      (station) =>
         station.WilayaCode === wilayaCode &&
         station.LigneCode === lineCode &&
         lineCoords.push(station.coords)
     );
 
-    const polyline = L.polyline(lineCoords, { color: 'green' }).addTo(
+    const polyline = L.polyline(lineCoords, { color: "green" }).addTo(
       this.#map
     );
     // zoom the map to the polyline
 
     let offsetValue = 0.007;
     let clonedPolyline = L.polyline(polyline.getLatLngs());
-    const shiftedLatLngs = clonedPolyline.getLatLngs().map(latLng => {
+    const shiftedLatLngs = clonedPolyline.getLatLngs().map((latLng) => {
       return L.latLng(latLng.lat, latLng.lng + offsetValue);
     });
     clonedPolyline.setLatLngs(shiftedLatLngs);
@@ -134,14 +153,14 @@ class App {
     this.#map.flyToBounds(clonedPolyline.getBounds(), { duration: 1 });
   }
   _clearMap() {
-    this.#map.eachLayer(layer => {
+    this.#map.eachLayer((layer) => {
       if (layer instanceof L.Marker) {
         this.#map.removeLayer(layer);
       } else if (layer instanceof L.Path) {
         this.#map.removeLayer(layer);
       }
     });
-    containerStations.innerHTML = '';
+    containerStations.innerHTML = "";
   }
   _renderSelectedLigneOfTransport() {
     // console.log(inputLineTransport.value);
@@ -159,8 +178,8 @@ class App {
     this.currentSelectedWilaya = new wilaya(
       +inputWilaya.value,
       inputWilaya.options[inputWilaya.selectedIndex].dataset.libelle,
-      ligne.filter(line => line.WilayaCode === +inputWilaya.value),
-      'unkown'
+      ligne.filter((line) => line.WilayaCode === +inputWilaya.value),
+      "unkown"
     );
     // console.log(this.currentSelectedWilaya);
     wilaya.renderLigneTransportOfSelectedWilaya(this.currentSelectedWilaya.Num);
@@ -173,23 +192,23 @@ class App {
     <img src="img/station.png" alt="" />
     <span> ${busStation.Libelle} </span>
     <img class="pathinto ${
-      busStation.type === 'end' ? 'hidden' : ''
+      busStation.type === "end" ? "hidden" : ""
     }" src="img/BetweenStation.png" alt="" />
     </div>`;
 
     let stations = flag ? containerStations : containerStations2;
 
-    stations.insertAdjacentHTML('beforeend', htmlElement);
+    stations.insertAdjacentHTML("beforeend", htmlElement);
   }
   _focusOnBusStation(ev) {
     // get the coloses parent has unique id
-    let closestParent = ev.target.closest('.station');
+    let closestParent = ev.target.closest(".station");
 
     // get the unique ID
     let uniqueID = closestParent.dataset.uniqueid;
 
     // FIND THE ID in the DB
-    let selectedBusStation = ligne.find(x => x.UniqueID === uniqueID);
+    let selectedBusStation = ligne.find((x) => x.UniqueID === uniqueID);
 
     // focus on this point
 
@@ -199,7 +218,7 @@ class App {
 
     // popup the name of the bus station
 
-    this.#map.eachLayer(layer => {
+    this.#map.eachLayer((layer) => {
       if (
         layer instanceof L.Marker &&
         layer.getLatLng().lat === selectedBusStation.coords[0] &&
@@ -212,9 +231,9 @@ class App {
 
   _showStationInput(mapE) {
     this.#mapEvent = mapE;
-    inputBusStationName.classList.remove('hidden');
-    inputBusLineName.classList.remove('hidden');
-    inputBusStationName.value = '';
+    inputBusStationName.classList.remove("hidden");
+    inputBusLineName.classList.remove("hidden");
+    inputBusStationName.value = "";
     inputBusStationName.focus();
   }
   _newBusStation(e) {
@@ -224,11 +243,11 @@ class App {
     const { lat, lng } = this.#mapEvent.latlng;
     // Check form data
     if (+inputBusLineName.value.length === 0) {
-      alert('يجب ادخال اسم خط النقل');
+      alert("يجب ادخال اسم خط النقل");
       return;
     }
     if (+inputBusStationName.value.length === 0) {
-      alert('يجب ادخال اسم خط المحطة');
+      alert("يجب ادخال اسم خط المحطة");
       return;
     }
 
@@ -237,7 +256,7 @@ class App {
       inputBusStationName.value,
       0,
       [lat, lng],
-      ''
+      ""
     );
     // Save it in Array
     this.newBusStation.push(newStation);
@@ -251,7 +270,7 @@ class App {
       inputBusLineName.value,
       0,
       this.newBusStation,
-      ''
+      ""
     );
     navigator.clipboard.writeText(
       JSON.stringify({
